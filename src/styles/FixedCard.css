@@ -47,3 +47,17 @@
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
+.registered{
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.registered::before{
+  position: absolute;
+  top: -0.5em;
+  left: -0.5em;
+  font-size: 0.7em;
+}

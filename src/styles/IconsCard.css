@@ -1,10 +1,13 @@
 /* Add your styling for the icons card here */
-.icons-card {
-  
+.slim-card {
+  max-width: 40px; /* Adjust the maximum width of the card */
+  margin: 0 auto; /* Center the card horizontally */
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.icon {
+.margin {
   display: block;
-  margin-bottom: 10px;
- 
 }

@@ -1,10 +1,11 @@
 import "../styles/ContentCard.css";
 
-const ContentCard = ({ title, content }) => {
+const ContentCard = () => {
   return (
-    <div className="content-card">
-      <h3>{title}</h3>
-      <p>{content}</p>
+    <div className="container-fluid">
+      <div className="text-center">
+        <h1 className="text-header text-wrap">Hi, I&apos;m Owusu Ansah. </h1>
+      </div>
     </div>
   );
 };

@@ -9,10 +9,8 @@ const App = () => {
       <div className="left">
         <FixedCard />
       </div>
-      <div className="right">
-        <ContentCard title="Specialty" content="Your specialty goes here" />
-        <ContentCard title="About" content="Your about information goes here" />
-        {/* Add more content cards as needed */}
+      <div className="center">
+        <ContentCard  />
       </div>
       <div className="icons">
         <IconsCard />
