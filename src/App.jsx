@@ -1,8 +1,7 @@
-
-import "./App.css"; // Create this CSS file for styling
-import FixedCard from "./components/FixedCard.js";
-import ContentCard from "./components/ContentCard.js";
-import IconsCard from "./components/IconsCard.js";
+import "./App.css"; 
+import FixedCard from "./components/FixedCard.jsx";
+import ContentCard from "./components/ContentCard.jsx";
+import IconsCard from "./components/IconsCard.jsx";
 
 const App = () => {
   return (

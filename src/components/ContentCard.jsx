@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/ContentCard.css";
 
 const ContentCard = ({ title, content }) => {
