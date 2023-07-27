@@ -1,0 +1,18 @@
+/* Add your styling for the layout here */
+.app {
+  display: flex;
+}
+
+.left {
+  /* Your styles for the left fixed card */
+  flex: 1;
+}
+
+.right {
+  /* Your styles for the right content cards */
+  flex: 2;
+}
+
+.icons {
+  /* Your styles for the icons card on the extreme right */
+}

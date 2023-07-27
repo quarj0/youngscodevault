@@ -1,0 +1,12 @@
+/* Add your glasmorphism styles here (e.g., using box-shadow) */
+.fixed-card {
+  /* Your glasmorphism styles */
+}
+
+.fixed-card img {
+  max-width: 100%;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
