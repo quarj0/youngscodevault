@@ -4,7 +4,8 @@
 }
 
 .left {
-  /* Your styles for the left fixed card */
+  /* Your styles for the left content cards */
+  
   flex: 1;
 }
 
