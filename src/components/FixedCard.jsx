@@ -12,7 +12,7 @@ const FixedCard = () => {
           Ethical Hacker & Web Developer
         </span>
       </div>
-      <img src="src/assets/mypic.jpeg" alt="mypic" className="card-img-top" />
+      <img src="src/assets/mypic.jpg" alt="mypic" className="mypic" />
       <p className="text-body-secondary">Kumasi</p>
       <div className="social-icons">
         <div className="icons-container icon-link-hover">
