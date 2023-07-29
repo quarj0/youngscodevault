@@ -4,7 +4,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import "../styles/ContentCard.css";
-
+import {
+  FaPython,
+  FaLinux,
+  FaReact,
+  FaGit,
+  FaJs,
+  FaDatabase,
+} from "react-icons/fa/";
 
 const ContentCard = () => {
   useEffect(() => {
@@ -16,7 +23,7 @@ const ContentCard = () => {
     <div className="container-fluid">
       <lazy>
         <div className="text-center card-body">
-          <i className="fa fa-home fa-1x"> Introduction </i>
+          <i className="fa fa-home fa-1x">Introduction</i>
           <h1 className="text-header text-wrap">
             <span className="text">Say hello from </span>
             <span className="text-success">Young, </span>
@@ -28,11 +35,14 @@ const ContentCard = () => {
           </p>
         </div>
         <div className="text-center card-body">
-          <h3 className="text-header text-wrap experience">5+</h3>
+          <h3 className="text-header experience ">5+</h3>
           <p className="text-wrap text-body-secondary">years of experience</p>
         </div>
         <div className="text-center card-body about">
-          <i className="fa fa-user fa-1x"> About </i>
+          <i data-aos="fade" className="fa fa-user fa-1x">
+            {" "}
+            About{" "}
+          </i>
           <h3 className="text-header text-wrap">
             <span>Every day is a new opportunity to</span>{" "}
             <span className="text-success">learn something new.</span>
@@ -47,25 +57,31 @@ const ContentCard = () => {
           </p>
         </div>
         <div className="text-center card-body">
-          <i className="fa fa-university fa-1x"> Education </i>
-          <p className="text-wrap">
+          <i data-aos="fade" className="fa fa-university fa-1x">
+            {" "}
+            Education{" "}
+          </i>
+          <p data-aos="fade-right" className="text-wrap">
             <small className="text-body-secondary"> 2020 - present </small>
           </p>
-          <h5 className="text-header text-wrap">
+          <h5 data-aos="fade-right" className="text-header text-wrap">
             Bachelor Degree of Information Technology
           </h5>
-          <small className="text-body-secondary">
+          <small data-aos="fade-right" className="text-body-secondary">
             University of Cape Coast{" "}
           </small>
         </div>
 
-        <div className="card-title text-center mt-5">
-          <h2 className="card-title">
+        <div className="card-title text-center mt-4">
+          <h2 className="card-title m-3">
             <span>My </span>{" "}
             <span className="text-success">Specialization</span>
           </h2>
         </div>
-        <div className="card w-50 h-30">
+        <div
+          data-aos="fade-down"
+          className="card w-50 h-30 card-special-container"
+        >
           <h5 className="card-title text-center mt-4">Development</h5>
           <div className="card-body text-center">
             <small className="card-title text-body-secondary">
@@ -76,7 +92,10 @@ const ContentCard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-50 h-30">
+        <div
+          data-aos="fade-down"
+          className="card w-50 h-30 card-special-container"
+        >
           <h5 className="card-title text-center mt-4">Programming</h5>
           <div className="card-body text-center">
             <small className="card-title text-body-secondary">
@@ -87,7 +106,10 @@ const ContentCard = () => {
             </p>
           </div>
         </div>
-        <div className="card w-50 h-30">
+        <div
+          data-aos="fade-down"
+          className="card w-50 h-30 card-special-container"
+        >
           <h5 className="card-title text-center mt-4">Pentesting</h5>
           <div className="card-body text-center">
             <small className="card-title text-body-secondary">
@@ -102,10 +124,20 @@ const ContentCard = () => {
             <span> My </span>
             <span className="text-success"> Advantages </span>
           </h3>
-        </div>
-        <div className="card-container">
-          <i className="fa fa-user"></i>
-
+          <div className="skills">
+            <FaPython className="fadvantage " />
+            <p className="card-title text-sm-center text-white">Python</p>
+            <FaLinux className="fadvantage " />
+            <p className="card-title text-sm-center text-white">Kali Linux</p>
+            <FaReact className="fadvantage " />
+            <p className="card-title text-sm-center text-white">ReactJs</p>
+            <FaGit className="fadvantage " />
+            <p className="card-title text-sm-center text-white">Git</p>
+            <FaJs className="fadvantage " />
+            <p className="card-title text-sm-center text-white">JavaScript</p>
+            <FaDatabase className="fadvantage " />
+            <p className="card-title text-sm-center text-white">SQL</p>
+          </div>
         </div>
       </lazy>
     </div>

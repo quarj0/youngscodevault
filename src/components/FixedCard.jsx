@@ -6,11 +6,21 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 const FixedCard = () => {
   return (
     <div className="card container-fluid text-bg-dark p-3">
-      <h2 className="card-title registered">Kwadwo &reg;</h2>
-      <div className="card-body text-wrap">
-        <span className="text-body-secondary text-end text-break fs-6">
-          Ethical Hacker & Web Developer
-        </span>
+      <h2 className="text-title registered fw-bold fs-2 text-start">
+        Kwadwo &reg;
+      </h2>
+      <div className="text-body">
+        <div className="text-body-secondary text-end">
+          <small className="text-sm-center text-break fs-6">
+            Ethical Hacker
+          </small>
+        </div>
+        <div className="text-body-secondary text-end">
+          <small className="text-sm-center text-break fs-6">
+            & Programmer
+          </small>
+        </div>
+
       </div>
       <img src="src/assets/mypic.jpg" alt="mypic" className="mypic" />
       <p className="text-body-secondary">Kumasi</p>
@@ -58,7 +68,9 @@ const FixedCard = () => {
       </div>
       <div className="text-body">
         <p className="text-body-secondary">
-          <small className="text-sm-center">&copy; my porfolio 2023 All Rights Reserved.</small>
+          <small className="text-sm-center">
+            &copy; my porfolio 2023 All Rights Reserved.
+          </small>
         </p>
       </div>
       <button className="btn btn-success mt-3">Email me</button>

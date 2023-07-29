@@ -7,26 +7,16 @@
   justify-content: flex-end;
 }
 
-.home {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: rgb(15, 114, 201);
-  text-align: left;
-  width: 100px;
-  height: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .experience {
   color: rgba(44, 252, 172, 0.87);
 }
 
 .fa-home,
 .fa-user,
-.fa-university {
+.fa-university,
+.fa-tasks {
   margin: 30px 140px 10px 0px;
-  border: #3d3d3d 2px solid;
+  border: #f0f0f0a1 2px solid;
   border-radius: 50px;
   padding: 4px 10px 4px 10px;
   text-transform: uppercase;
@@ -36,15 +26,38 @@
 
 .fa-home:hover,
 .fa-user:hover,
-.fa-university:hover {
+.fa-university:hover,
+.fa-tasks:hover {
   background-color: #3d3d3d;
-  color: #fff;
+  color: #00ff6a;
 }
 
-/* Glassmorphism
-background: rgba( 4, 4, 4, 0.55 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 0px );
--webkit-backdrop-filter: blur( 0px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+.card-special-container {
+  color: #fff;
+  background: transparent;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  margin-left: 12rem;
+  margin-bottom: 8px;
+}
+
+.card-special-container:hover {
+  border: solid 1px #1eff009a;
+}
+
+.skills{
+  position: absolute;
+  display: flex;
+}
+
+.fadvantage {
+  display: flex;
+  position: relative;
+  font-size: 48px;
+  border: 1px solid;
+  border-radius: 2rem;
+  margin: 20px;
+}

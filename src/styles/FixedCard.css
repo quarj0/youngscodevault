@@ -1,12 +1,17 @@
 .card {
-  width: 18rem;
-  margin: 10%;
+  color: #fff;
+  background: rgba(4, 4, 4, 0.55);
+  box-shadow: 0 8px 32px 0 rgb(2, 7, 19);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.192);
 }
 
-.mypic{
-  width: 50%;
+.mypic {
+  width: 60%;
   object-fit: cover;
-  border-radius: 70px;
+  border-radius: 30px;
 }
 
 .social-icons {
@@ -21,7 +26,7 @@
   justify-content: start;
   align-items: center;
   width: 40px;
-  height: 40px;
+  height: 40%;
   border-radius: 50%;
   background-color: inherit; /* Add the color you want for the circle background */
   margin-bottom: 10px;
@@ -43,21 +48,20 @@
   text-transform: uppercase;
 }
 
-.registered{
+.registered {
   display: inline-block;
   position: absolute;
   font-size: 20px;
   line-height: 1;
 }
 
-.registered::before{
+.registered::before {
   position: absolute;
   top: -0.5em;
   left: -0.5em;
   font-size: 0.7em;
 }
 
-.text-sm-center{
+.text-sm-center {
   color: #fff;
 }
-
