@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const FixedCard = () => {
   return (
-    <div className="card container-fluid text-bg-dark p-3">
+    <div className="card container-fluid text-bg-dark p-3 fixed">
       <h2 className="text-title registered fw-bold fs-2 text-start">
         Kwadwo &reg;
       </h2>

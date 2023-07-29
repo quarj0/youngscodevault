@@ -4,9 +4,9 @@
 
 .left {
   /* Your styles for the left content cards */
-  margin-left: 24px;
-  margin-top: 200px;
   flex: 1;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .right {

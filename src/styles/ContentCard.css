@@ -11,23 +11,22 @@
   color: rgba(44, 252, 172, 0.87);
 }
 
-.fa-home,
-.fa-user,
-.fa-university,
-.fa-tasks {
+.fa-ico,
+.fa-ico,
+.fa-ico,
+.fa-ico {
   margin: 30px 140px 10px 0px;
   border: #f0f0f0a1 2px solid;
   border-radius: 50px;
   padding: 4px 10px 4px 10px;
   text-transform: uppercase;
   font-size: 8px;
-  /* color: #fff; */
 }
 
-.fa-home:hover,
-.fa-user:hover,
-.fa-university:hover,
-.fa-tasks:hover {
+.fa-ico:hover,
+.fa-ico:hover,
+.fa-ico:hover,
+.fa-ico:hover {
   background-color: #3d3d3d;
   color: #00ff6a;
 }
@@ -60,4 +59,9 @@
   border: 1px solid;
   border-radius: 2rem;
   margin: 20px;
+}
+
+.main-content{
+  height: 100%;
+  overflow-y:auto ;
 }
