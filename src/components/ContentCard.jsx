@@ -4,6 +4,12 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import "../styles/ContentCard.css";
+import Introduction from "./Introduction";
+import About from "./About";
+import Advantages from "./Advantages";
+import Certificate from './Certificate'
+import Education from "./Education";
+import Specialization from "./Specialization";
 
 const ContentCard = () => {
   useEffect(() => {
@@ -31,7 +37,14 @@ const ContentCard = () => {
           data-bs-smooth-scroll="true"
           className="scrollspy-example"
           tabIndex="0"
-        ></div>
+        >
+          <Introduction />
+          <About />
+          <Education />
+          <Specialization />
+          <Advantages />
+          <Certificate />
+        </div>
       </div>
     </div>
   );
