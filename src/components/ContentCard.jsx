@@ -1,20 +1,15 @@
-import { useEffect } from "react";
 import "react-icons/fa/";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
+import Introduction from "./Introduction.jsx";
+import About from "./About.jsx";
+import Advantages from "./Advantages.jsx";
+import Certificate from "./Certificates.jsx";
+import Education from "./Education.jsx";
+import Specialization from "./Specialization.jsx";
 import "../styles/ContentCard.css";
-import Introduction from "./Introduction";
-import About from "./About";
-import Advantages from "./Advantages";
-import Certificate from './Certificate'
-import Education from "./Education";
-import Specialization from "./Specialization";
 
 const ContentCard = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div className="row ">
       <div className="col-4">
