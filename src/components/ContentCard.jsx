@@ -1,5 +1,4 @@
-import "react-icons/fa/";
-import "aos/dist/aos.css";
+import "react-icons/fa";
 
 import Introduction from "./Introduction.jsx";
 import About from "./About.jsx";

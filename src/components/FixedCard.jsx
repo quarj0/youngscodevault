@@ -1,6 +1,5 @@
 import "../styles/FixedCard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "react-icons/fa/";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const FixedCard = () => {

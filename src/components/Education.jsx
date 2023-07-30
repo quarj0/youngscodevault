@@ -1,11 +1,8 @@
-import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Aos from "aos";
+
 
 const Education = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
+
 
   return (
     <div>
