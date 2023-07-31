@@ -1,24 +1,16 @@
-import { useEffect } from "react";
-import Aos from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/Specialization.css";
 
 const Specialization = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
-    <div>
+    <div className="special-container">
       <div className="card-title text-center mt-4">
-        <h2 className="card-title m-3">
+        <h2 className="card-title">
           <span>My </span> <span className="text-success">Specialization</span>
         </h2>
       </div>
-      <div
-        data-aos="fade-down"
-        className="card w-50 h-30 card-special-container"
-      >
-        <h5 className="card-title text-center mt-4">Development</h5>
+      <div data-aos="fade-down" className="card card-special-container">
+        <h5 className="card-title text-center mb-4 mt-3">Development</h5>
         <div className="card-body text-center">
           <small className="card-title text-body-primary">
             I build website with ReactJs and Django
@@ -28,11 +20,8 @@ const Specialization = () => {
           </p>
         </div>
       </div>
-      <div
-        data-aos="fade-down"
-        className="card w-50 h-30 card-special-container"
-      >
-        <h5 className="card-title text-center mt-4">Programming</h5>
+      <div data-aos="fade-down" className="card  card-special-container">
+        <h5 className="card-title text-center mb-4 mt-3 ">Programming</h5>
         <div className="card-body text-center">
           <small className="card-title text-body-primary">
             I build scripts, and automate tasks with Python
@@ -44,7 +33,7 @@ const Specialization = () => {
       </div>
       <div
         data-aos="fade-down"
-        className="card w-50 h-30 card-special-container"
+        className="card mb-4 mt-3 card-special-container"
       >
         <h5 className="card-title text-center mt-4">Pentesting</h5>
         <div className="card-body text-center">

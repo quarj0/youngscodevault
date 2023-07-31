@@ -1,67 +1,71 @@
-.card {
+/* styles/FixedCard.css */
+.fixed-card {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: #333;
   color: #fff;
-  background: rgba(4, 4, 4, 0.55);
-  box-shadow: 0 8px 32px 0 rgb(2, 7, 19);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.192);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-title {
+  margin-top: 30px;
 }
 
 .mypic {
-  width: 60%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
   object-fit: cover;
-  border-radius: 30px;
+}
+
+.text-body-secondary {
+  margin-top: 10px;
 }
 
 .social-icons {
   display: flex;
   flex-direction: row;
+  gap: 15px;
 }
 
-.icons-container {
-  color: #b8b5b5;
-  text-decoration: none;
+.icon-link {
   display: flex;
-  justify-content: start;
   align-items: center;
+  justify-content: center;
   width: 40px;
-  height: 40%;
+  height: 40px;
   border-radius: 50%;
-  background-color: inherit; /* Add the color you want for the circle background */
-  margin-bottom: 10px;
-  margin-left: 25px;
+  background-color: #666;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
-.icon {
-  font-size: 24px; /* Adjust the font size to resize the icon */
-  color: #9e9b9b;
+.icon-link:hover {
+  background-color: #444;
 }
 
-.icon:hover {
-  color: #fff;
+.btn {
+  margin-top: 20px;
+  width: 100%;
 }
 
-.btn,
-.btn-success {
-  margin-bottom: 20px;
-  text-transform: uppercase;
+
+/* Styling for the shorthand "K" symbol */
+.custom-shorthand-k {
+  font-size: 0.8em;
+  position: relative;
+  
 }
 
-.registered {
-  display: inline-block;
+.custom-shorthand-k::after {
+  content: "k";
+  font-size: 0.5em;
   position: absolute;
-  font-size: 20px;
-  line-height: 1;
-}
+  top: -0.2em;
+  right: -1em;
 
-.registered::before {
-  position: absolute;
-  top: -0.5em;
-  left: -0.5em;
-  font-size: 0.7em;
-}
-
-.text-sm-center {
-  color: #fff;
 }

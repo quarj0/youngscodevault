@@ -1,6 +1,5 @@
-import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Aos from "aos";
+
 import {
   FaPython,
   FaLinux,
@@ -8,13 +7,10 @@ import {
   FaGit,
   FaJs,
   FaDatabase,
-} from "react-icons/fa/";
+} from "react-icons/fa";
+import "../styles/Skills.css";
 
 const Skills = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
     <div>
       <div className="text-center card-body about">
@@ -24,17 +20,29 @@ const Skills = () => {
           <span className="text-success"> Advantages </span>
         </h3>
         <div className="skills">
-          <FaPython className="fadvantage " />
+          <div className="circle">
+            <FaPython className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">Python</p>
-          <FaLinux className="fadvantage " />
+          <div className="circle">
+            <FaLinux className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">Kali Linux</p>
-          <FaReact className="fadvantage " />
+          <div className="circle">
+            <FaReact className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">ReactJs</p>
-          <FaGit className="fadvantage " />
+          <div className="circle">
+            <FaGit className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">Git</p>
-          <FaJs className="fadvantage " />
+          <div className="circle">
+            <FaJs className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">JavaScript</p>
-          <FaDatabase className="fadvantage " />
+          <div className="circle">
+            <FaDatabase className="fadvantage" />
+          </div>
           <p className="card-title text-sm-center text-white">SQL</p>
         </div>
       </div>

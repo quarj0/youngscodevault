@@ -1,13 +1,13 @@
 import "./App.css"; 
-import FixedCard from "./components/FixedCard.jsx";
+// import FixedCard from "./components/FixedCard.jsx";
 import ContentCard from "./components/ContentCard.jsx";
 
 const App = () => {
   return (
     <div className="app">
-      <div className="left">
+      {/* <div className="left">
         <FixedCard />
-      </div>
+      </div> */}
       <div className="center">
         <ContentCard  />
       </div>

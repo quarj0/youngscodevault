@@ -1,15 +1,1 @@
-.app {
-  display: flex;
-}
 
-.left {
-  /* Your styles for the left content cards */
-  flex: 2;
-  margin-top: 10rem;
-  margin-left: 20px;
-}
-
-.right {
-  /* Your styles for the right content cards */
-  flex: 1;
-}

@@ -8,9 +8,10 @@ import AOS from "aos";
 const InitializeAOS = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 100,
       easing: "ease-in-out",
       once: false,
+      useClassNames: true,
     });
   }, []);
 };
