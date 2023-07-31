@@ -1,12 +1,8 @@
 .skills {
   display: flex;
-
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 3em;
+  word-break: break-all;
+  align-content: center;
 }
 
 .circle {
@@ -27,4 +23,3 @@
   font-size: 14px;
   color: rgb(117, 230, 178);
 }
-
