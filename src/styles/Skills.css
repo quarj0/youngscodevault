@@ -1,24 +1,30 @@
-/* Add this CSS in your main CSS file or create a separate CSS file and import it */
+.skills {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 3em;
+}
 
 .circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.08);
-    transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  .circle:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
-  }
-  
-  .fadvantage {
-    font-size: 40px;
-    color: #fff;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  position: relative;
+}
+
+.percentage {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  color: rgb(117, 230, 178);
+}
+

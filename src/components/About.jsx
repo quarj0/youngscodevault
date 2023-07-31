@@ -1,16 +1,11 @@
-import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Aos from "aos";
 
 const About = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
 
   return (
     <div>
       <div className="text-center card-body about">
-        <i data-aos="fade" className="fa fa-user fa-1x fa-ico">
+        <i data-aos="fade" className="fa fa-user fa-1x fa-ico text-uppercase">
           {" "}
           About{" "}
         </i>

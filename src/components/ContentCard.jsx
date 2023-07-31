@@ -6,12 +6,14 @@ import Education from "./Education.jsx";
 import Specialization from "./Specialization.jsx";
 import Skills from "./Skills.jsx";
 import FixedCard from "./FixedCard";
+import Projects from "./Projects.jsx";
 
 import "../styles/ContentCard.css";
+import Contact from "./Contact.jsx";
 
 const ContentCard = () => {
   return (
-    <div className="row content-container">
+    <div className="row content-container container-fluid">
       <div className="col-lg-4 col-md-12 fixed-card-container">
         <FixedCard />
       </div>
@@ -22,6 +24,8 @@ const ContentCard = () => {
         <Specialization />
         <Certificate />
         <Skills />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );
