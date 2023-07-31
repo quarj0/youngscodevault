@@ -11,7 +11,7 @@ const FixedCard = () => {
   };
     
   return (
-    <div className="card container-fluid text-bg-dark p-3 fixed-card">
+    <div className="card container-fluid text-bg-dark p-1 fixed-card">
       <h2 className="text-title registered fw-bold fs-2 text-start text-capitalize">
         kwadwo <span className="custom-shorthand-k">
 
@@ -81,7 +81,7 @@ const FixedCard = () => {
           </small>
         </p>
       </div>
-        <button className="btn btn-outline-success btn-sm" onClick={handleMailTo}>Send mail</button>
+        <button className="btn btn-outline-success btn-sm w-25" onClick={handleMailTo}>Send mail</button>
 
     </div>
   );

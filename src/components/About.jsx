@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="text-center card-body about">
+      <div className="text-start card-body about">
         <i data-aos="fade" className="fa fa-user fa-1x fa-ico text-uppercase">
           {" "}
           About{" "}

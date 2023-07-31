@@ -4,7 +4,7 @@ import "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid text-start">
       <i className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase clearfix text-sm-center">
         {" "}
         Contact Me{" "}

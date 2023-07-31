@@ -4,7 +4,7 @@ import { FaPython, FaLinux, FaReact, FaGit, FaJs, FaDatabase } from 'react-icons
 const MySkills = () => {
   return (
     <div>
-      <div className="text-center card-body about">
+      <div className="text-start card-body about">
         <i className="fa fa-tasks fa-1x fa-ico mt-4 mb-2 text-uppercase"> My Skills </i>
         <h3 className="text-header text-wrap">
           <span> My </span>
@@ -15,7 +15,7 @@ const MySkills = () => {
             <FaPython className="fadvantage" />
             <span className="percentage">80%</span>
           </div>
-          {/* <p className="card-title text-sm-center text-white">Python</p> */}
+          <p className="card-body align-bottom">Python</p>
           <div className="circle">
             <FaLinux className="fadvantage" />
             <span className="percentage">70%</span>

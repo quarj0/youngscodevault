@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Introduction = () => {
   return (
     <div>
-      <div className="text-center ">
+      <div className="text-start ">
         <i className="fa fa-home fa-1x fa-ico text-uppercase"> Introduce</i>
         <h1 className="text-header text-wrap">
           <span className="text-body-primary">Say hello from </span>
