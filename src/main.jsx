@@ -10,8 +10,7 @@ const InitializeAOS = () => {
     AOS.init({
       duration: 100,
       easing: "ease-in-out",
-      once: false,
-      useClassNames: true,
+      once: true,
     });
   }, []);
 };

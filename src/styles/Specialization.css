@@ -1,3 +1,15 @@
 .card-title{
-    margin: 20px 14px ;
+   margin-top: 24px;
+}
+
+.card-special-container{
+   margin-top: 24px;
+}
+
+.card-special-container > div{
+   margin-top: 12px;
+}
+
+.card-special-container:hover{
+   border: 1px solid rgb(117, 230, 178)
 }

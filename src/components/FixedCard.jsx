@@ -81,7 +81,7 @@ const FixedCard = () => {
           </small>
         </p>
       </div>
-        <button className="btn btn-success btn-sm" onClick={handleMailTo}>Send mail</button>
+        <button className="btn btn-outline-success btn-sm" onClick={handleMailTo}>Send mail</button>
 
     </div>
   );

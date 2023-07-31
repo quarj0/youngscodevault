@@ -5,6 +5,7 @@ const Specialization = () => {
   return (
     <div className="special-container">
       <div className="card-title text-center mt-4">
+        <i className="fa fa-users-cog fa-1x fa-ico"> Services </i>
         <h2 className="card-title">
           <span>My </span> <span className="text-success">Specialization</span>
         </h2>

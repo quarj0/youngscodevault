@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div>
         <div>
-         <i className="fa fa-home fa-1x fa-ico">Introduction</i>
+         <i className="fa fa-home fa-1x fa-ico"> Introduce</i>
           <h1 className="text-header text-wrap">
             <span className="text">Say hello from </span>
             <span className="text-success">Young, </span>
