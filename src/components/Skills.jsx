@@ -27,48 +27,48 @@ const MySkills = () => {
               <span className="percentage">80%</span>
             </div>
           </div>
-
           <p className="card-body align-bottom">Python</p>
+
           <div className="skills">
             <div className="circle">
               <FaLinux className="fadvantage" />
-              <span className="percentage">70%</span>
+              <span className="percentage">80%</span>
             </div>
           </div>
-
           <p className="">Kali Linux</p>
+
           <div className="skills">
             <div className="circle">
               <FaReact className="fadvantage" />
-              <span className="percentage">90%</span>
+              <span className="percentage">78%</span>
             </div>
           </div>
-
           <p className="">ReactJs</p>
+
           <div className="skills">
             <div className="circle">
               <FaGit className="fadvantage" />
-              <span className="percentage">75%</span>
+              <span className="percentage">65%</span>
             </div>
           </div>
-
           <p className="">Git</p>
+
           <div className="skills">
             <div className="circle">
               <FaJs className="fadvantage" />
               <span className="percentage">85%</span>
             </div>
           </div>
-
           <p className="">JavaScript</p>
-          <div className="skills">
-            <FaDatabase className="fadvantage" />
-            <span className="percentage">70%</span>
-          </div>
-        </div>
 
-        <div className="circle">
-          <p className="">SQL</p>
+          <div className="skills">
+            <div className="circle">
+              <FaDatabase className="fadvantage" />
+              <span className="percentage">60%</span>
+            </div>
+          </div>
+        <p className="">JavaScript</p>
+
         </div>
       </div>
     </div>
