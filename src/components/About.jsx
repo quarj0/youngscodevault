@@ -11,7 +11,7 @@ const About = () => {
         </i>
         <h3 className="text-header text-wrap">
           <span>Every day is a new opportunity to</span>{" "}
-          <span className="text-success">learn something new.</span>
+          <span className="text-success">learn something new</span>.
         </h3>
         <p data-aos="fade-left" className="text-wrap text-body-primary">
           Since beginning my journey as a programmer and ethical hacker nearly 5

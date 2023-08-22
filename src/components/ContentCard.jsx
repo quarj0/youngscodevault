@@ -13,7 +13,7 @@ import Contact from "./Contact.jsx";
 
 const ContentCard = () => {
   return (
-    <div className="row content-container container-fluid">
+    <div className="row content-container container-fluid bg-img">
       <div className="col-lg-4 col-md-12 fixed-card-container">
         <FixedCard />
       </div>
