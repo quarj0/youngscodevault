@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Project.css";
+// import "../styles/Project.css";
 
 const Advantages = () => {
   return (
@@ -11,8 +11,8 @@ const Advantages = () => {
         </i>
       </div>
       <h3 className="card-title">
-        <span className="text-body text-start">Featured</span>
-        <span className="text-success m-lg-1">Projects</span>
+        <span className="text-body text-start fs-1">Featured</span>
+        <span className="text-success m-lg-1 fs-1">Projects</span>
       </h3>
       <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
         <div className="col">

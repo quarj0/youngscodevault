@@ -6,8 +6,8 @@ const Specialization = () => {
     <div className="special-container container-fluid">
       <div className="card-title text-start mt-4">
         <i className="fa fa-users-cog fa-1x fa-ico text-uppercase"> Services </i>
-        <h2 className="card-title">
-          <span>My </span> <span className="text-success">Specialization</span>
+        <h2 className="card-title ">
+          <span className="fs-1">My </span> <span className="text-success fs-1">Specialization</span>
         </h2>
       </div>
       <div data-aos="fade-down" className="card card-special-container">
@@ -16,9 +16,7 @@ const Specialization = () => {
           <small className="card-body text-body-primary">
             I build website with ReactJs and Django
           </small>
-          <p className="card-text mt-5 fs-6 text-body-primary text-start">
-            <small className="text-body-primary card-body">2 projects</small>
-          </p>
+
         </div>
       </div>
       <div data-aos="fade-down" className="card  card-special-container">
@@ -27,9 +25,7 @@ const Specialization = () => {
           <small className="card-title text-body-primary card-body">
             I build scripts, and automate tasks with Python
           </small>
-          <p className="card-text mt-5 fs-6 text-body-primary text-start">
-            <small className="text-body-primary card-body">4 p  rojects</small>
-          </p>
+
         </div>
       </div>
       <div

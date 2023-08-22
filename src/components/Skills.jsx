@@ -16,9 +16,9 @@ const MySkills = () => {
           {" "}
           My Skills{" "}
         </i>
-        <h3 className="text-header text-wrap">
-          <span> My </span>
-          <span className="text-success"> Advantages </span>
+        <h3 className="text-header text-wrap  mb-2">
+          <span className="fs-1"> My </span>
+          <span className="text-success fs-1"> Advantages </span>
         </h3>
         <div className="skills-container">
           <div className="skills">

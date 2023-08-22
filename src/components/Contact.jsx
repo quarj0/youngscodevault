@@ -1,15 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Contact.css";
+// import "../styles/Contact.css";
 import "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="container-fluid text-start">
-      <i className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase clearfix text-sm-center">
+      <i className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
         {" "}
         Contact Me{" "}
       </i>
       <div className="row g-3 m-2">
+        <p className="text-body-primary fs-1">
+         <span>Let&apos;s Work</span> <span className="text-success">Together!</span>
+        </p>
         <div className="col">
           <input
             type="text"
