@@ -12,7 +12,6 @@
 
 .text-title {
   margin-top: 30px;
-  
 }
 
 .mypic {
@@ -54,12 +53,10 @@
   width: 100%;
 }
 
-
 /* Styling for the shorthand "K" symbol */
 .custom-shorthand-k {
   font-size: 0.8em;
   position: relative;
-  
 }
 
 .custom-shorthand-k::after {

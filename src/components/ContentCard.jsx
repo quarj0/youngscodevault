@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import Introduction from "./Introduction.jsx";
 import About from "./About.jsx";
 import Certificate from "./Certificates.jsx";
@@ -7,8 +8,8 @@ import Specialization from "./Specialization.jsx";
 import Skills from "./Skills.jsx";
 import FixedCard from "./FixedCard";
 import Projects from "./Projects.jsx";
-
 import "../styles/ContentCard.css";
+
 import Contact from "./Contact.jsx";
 
 const ContentCard = () => {
