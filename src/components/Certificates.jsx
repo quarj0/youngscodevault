@@ -5,7 +5,7 @@ const CertificationCarousel = () => {
     <div className="text">
       <div className="card-body">
         <i
-          data-aos="fade"
+          data-aos="fade-right"
           className="fa fa-certificate fa-1x fa-ico mb-3 text-uppercase"
         >
           {" "}

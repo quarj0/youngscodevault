@@ -1,8 +1,26 @@
-.skills {
+.language {
+  text-align: center;
+}
+.skills-container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  word-break: break-all;
-  align-content: center;
+  margin-top: 50px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  position: relative;
 }
 
 .circle {

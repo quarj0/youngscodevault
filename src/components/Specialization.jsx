@@ -5,7 +5,7 @@ const Specialization = () => {
   return (
     <div className="special-container container-fluid">
       <div className="card-title text-start mt-4">
-        <i className="fa fa-users-cog fa-1x fa-ico text-uppercase"> Services </i>
+        <i data-aos="fade-right" className="fa fa-users-cog fa-1x fa-ico text-uppercase"> Services </i>
         <h2 className="card-title ">
           <span className="fs-1">My </span> <span className="text-success fs-1">Specialization</span>
         </h2>

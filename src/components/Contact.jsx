@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div className="container-fluid text-start">
-      <i className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
+      <i data-aos="fade-right" className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
         {" "}
         Contact Me{" "}
       </i>

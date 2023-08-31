@@ -6,13 +6,17 @@ import {
   FaGit,
   FaJs,
   FaDatabase,
+  FaRocket,
 } from "react-icons/fa";
 
 const MySkills = () => {
   return (
     <div>
       <div className="text-start card-body about">
-        <i className="fa fa-tasks fa-1x fa-ico mt-4 mb-2 text-uppercase">
+        <i
+          data-aos="fade-right"
+          className="fa fa-tasks fa-1x fa-ico mt-4 mb-2 text-uppercase"
+        >
           {" "}
           My Skills{" "}
         </i>
@@ -21,54 +25,64 @@ const MySkills = () => {
           <span className="text-success fs-1"> Advantages </span>
         </h3>
         <div className="skills-container">
-          <div className="skills">
+          <div data-aos="fade-right" className="skills">
+            <p className="language fs-6">Python</p>
             <div className="circle">
-              <FaPython className="fadvantage" />
+              <FaPython color="blue" className="fadvantage" />
               <span className="percentage">80%</span>
             </div>
           </div>
-          <p className="card-body align-bottom">Python</p>
 
-          <div className="skills">
+          <div data-aos="fade-left" className="skills">
+            <p className="language fs-6">Kali Linux</p>
             <div className="circle">
               <FaLinux className="fadvantage" />
               <span className="percentage">80%</span>
             </div>
           </div>
-          <p className="">Kali Linux</p>
 
           <div className="skills">
+            <p className="language fs-6">ReactJs</p>
             <div className="circle">
-              <FaReact className="fadvantage" />
+              <FaReact color="lightblue" className="fadvantage" />
               <span className="percentage">78%</span>
             </div>
           </div>
-          <p className="">ReactJs</p>
 
-          <div className="skills">
+          <div data-aos="fade" className="skills">
+            <p className="language fs-6">Git</p>
             <div className="circle">
-              <FaGit className="fadvantage" />
-              <span className="percentage">65%</span>
-            </div>
-          </div>
-          <p className="">Git</p>
-
-          <div className="skills">
-            <div className="circle">
-              <FaJs className="fadvantage" />
+              <FaGit className="fadvantage" color="#F05033" />
               <span className="percentage">85%</span>
             </div>
           </div>
-          <p className="">JavaScript</p>
 
           <div className="skills">
+            <p className="language">JavaScript</p>
             <div className="circle">
-              <FaDatabase className="fadvantage" />
-              <span className="percentage">60%</span>
+              <FaJs className="fadvantage" color="yellow" />
+              <span className="percentage">70%</span>
             </div>
           </div>
-        <p className="">JavaScript</p>
 
+          <div data-aos="fade-up" className="skills">
+            <p className="language">Database</p>
+            <div className="circle">
+              <FaDatabase color="teal" className="fadvantage" />
+              <span className="percentage">70%</span>
+            </div>
+          </div>
+          <div data-aos="fade-left" className="skills">
+            <p className="language">Django</p>
+            <div className="circle">
+              <FaRocket
+                color="green"
+                style={{ transform: "rotate(313deg)" }}
+                className="fadvantage"
+              />
+              <span className="percentage">68%</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

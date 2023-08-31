@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div>
       <div className="text-start ">
-        <i className="fa fa-home fa-1x fa-ico text-uppercase"> Introduce</i>
+        <i data-aos="fade-right" className="fa fa-home fa-1x fa-ico text-uppercase"> Introduce</i>
         <h1 className="text-header text-wrap">
           <span className="text-body-primary text-capitalize">
             Say hi from{" "}

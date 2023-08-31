@@ -15,7 +15,7 @@ const Advantages = () => {
         <span className="text-success m-lg-1 fs-1">Projects</span>
       </h3>
       <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
-        <div className="col">
+        <div className="col" data-aos="fade-right">
           <div className="card h-100">
             <img
               src="src/assets/systemresponse.png"
@@ -62,7 +62,7 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-left"> 
           <div className="card h-100">
             <img src="src/assets/almamingle.png" className="card-img-top" alt="site-img" />
             <div className="card-body">
@@ -101,7 +101,7 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-top">
           <div className="card h-100">
             <img src="..." className="card-img-top" alt="site-img" />
             <div className="card-body">
@@ -110,7 +110,7 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-down">
           <div className="card h-100">
             <img src="..." className="card-img-top" alt="app-img" />
             <div className="card-body">
