@@ -21,7 +21,7 @@
 /* Line styles */
 .line {
   position: absolute;
-  background-color: rgb(116, 227, 176) ; /* Line color */
+  background-color: rgb(116, 227, 176); /* Line color */
   width: 2px;
   height: 60%; /* Full height of the container */
   left: 5%; /* Center the line horizontally */
@@ -51,13 +51,11 @@
   margin-left: 30px; /* Spacing between beads and content */
 }
 
-/* Additional styles */
-.text-body-primary {
-  font-size: 16px;
-  color: #555; /* Text color */
-}
-
 .education-date {
   font-weight: bold;
   margin-top: 5px;
+}
+
+.text-body{
+  color: #C9D1D9;
 }

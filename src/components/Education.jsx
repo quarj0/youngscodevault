@@ -3,7 +3,7 @@ import '../styles/Education.css';
 
 const Education = () => {
   return (
-    <div className="container edu-container">
+    <div className="container edu-container text-body-primary">
       <div className="top-section">
         <i
           data-aos="fade-right"
@@ -20,10 +20,10 @@ const Education = () => {
           <div className="bead"></div>
           <div className="content">
             <h3>Bachelor Degree Information Technology</h3>
-            <p className="text-body-primary institution">
+            <p className="text-body institution">
               University of Cape Coast
             </p>
-            <p className="text-body-primary education-date">2020 - Present</p>
+            <p className="text-body education-date">2020 - Present</p>
           </div>
         </div>
 
@@ -31,12 +31,12 @@ const Education = () => {
           <div className="bead"></div>
           <div className="content">
             <h3>High School Diploma</h3>
-            <p className="text-body-primary institution">
+            <p className="text-body institution">
               Collins Senior High School
             </p>
-            <p className="text-body-primary education-date">2016 - 2019</p>
+            <p className="text-body education-date">2016 - 2019</p>
 
-            <p className="text-body-primary education-date">
+            <p className="text-body education-date">
               <strong>Major:</strong> General Science
             </p>
           </div>

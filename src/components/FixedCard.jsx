@@ -15,7 +15,7 @@ const FixedCard = () => {
       <h2 className="registered fw-bold fs-2 text-capitalize">
         young <span className="custom-shorthand-k"></span>
       </h2>
-      <div className="text-body">
+      <div className="text-body-primary">
         <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">
             Ethical Hacker

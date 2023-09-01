@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Introduction = () => {
   return (
     <div>
-      <div className="container ">
+      <div className="container text-body-primary ">
         <i data-aos="fade-right" className="fa fa-home fa-1x fa-ico text-uppercase"> Introduce</i>
         <h1 className="text-header text-wrap">
           <span className="text-body-primary ">
@@ -21,7 +21,7 @@ const Introduction = () => {
           Just simple like that!
         </p>
       </div>
-      <div className="text-center card-body">
+      <div className="text-center text-body-primary">
         <h3 className="text-header experience ">5+</h3>
         <p className="text-wrap text-body-primary">years of experience</p>
       </div>

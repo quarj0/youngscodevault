@@ -11,9 +11,9 @@ import {
 
 const MySkills = () => {
   return (
-    <div className="container">
+    <div className="container text-body-primary">
       <div className="text-start card-body about">
-        <i
+        <i 
           data-aos="fade-right"
           className="fa fa-tasks fa-1x fa-ico mt-4 mb-2 text-uppercase"
         >
@@ -21,7 +21,7 @@ const MySkills = () => {
           My Skills{" "}
         </i>
         <h3 className="text-header text-wrap  mb-2">
-          <span className="fs-1"> My </span>
+          <span className="fs-1 text-body-primary"> My </span>
           <span className="text-success fs-1"> Advantages </span>
         </h3>
         <div className="skills-container">

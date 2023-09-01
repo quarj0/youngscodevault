@@ -7,7 +7,7 @@ const Specialization = () => {
       <div className="card-title text-start mt-4">
         <i data-aos="fade-right" className="fa fa-users-cog fa-1x fa-ico text-uppercase"> Services </i>
         <h2 className="card-title ">
-          <span className="fs-1">My </span> <span className="text-success fs-1">Specialization</span>
+          <span className="fs-1 text-body-primary">My </span> <span className="text-success fs-1">Specialization</span>
         </h2>
       </div>
       <div data-aos="fade-down" className="card card-special-container">

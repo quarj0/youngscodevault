@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
   return (
-    <div>
+    <div className="text-body-primary">
       <div className="container about">
         <div className="row">
           <div className="cols-md-2">
@@ -20,13 +20,11 @@ const About = () => {
               <span className="text-success">learn something new</span>.
             </h3>
             <p data-aos="fade-left" className="text-wrap text-body-primary">
-              Since beginning my journey as a web developer and ethical hacker
-              nearly 5 years ago, probably more than that because didn&apos;t
-              know much then. I&apos;ve done remote work for agencies, consulted for
-              startups, and collaborated with talented people to create digital
-              products for both business and consumer use. I&apos;m quietly
-              confident, naturally curious, and perpetually working on improving
-              my chops one design problem at a time.
+              I am a Cybersecurity Analyst and Developer. I have been working in the field of
+              Cybersecurity for 5+ years. I have a passion for learning and sharing my knowledge
+              with others a public as possible. I have a strong interest in Cybersecurity and Web
+              Development. I am always excited to learn new things. I am a fast learner and a 
+              team player. I am a self-motivated person and I believe in hard work.
             </p>
           </div>
         </div>
