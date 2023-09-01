@@ -12,8 +12,8 @@ const FixedCard = () => {
 
   return (
     <div className="card container-fluid text-bg-dark p-1 fixed-card">
-      <h2 className="text-title registered fw-bold fs-2 text-capitalize">
-        kwadwo <span className="custom-shorthand-k"></span>
+      <h2 className="registered fw-bold fs-2 text-capitalize text-left">
+        young <span className="custom-shorthand-k"></span>
       </h2>
       <div className="text-body">
         <div className="text-body-secondary text-end">
@@ -32,9 +32,9 @@ const FixedCard = () => {
         Base in Ejisu-Kumasi, Gh</p>
       <div className="social-icons">
         <div className="icons-container icon-link">
-          <a
+          <a color="black"
             className="icon-link icon-link"
-            href="https://github.com/hacks-and-codes/"
+            href="https://github.com/quarj0/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ const FixedCard = () => {
           </a>
         </div>
         <div className="icons-container icon-link">
-          <a
+          <a color="blue"
             className="icon-link icon-link"
             href="https://linkedin.com/in/quarjo/"
             target="_blank"
@@ -53,6 +53,7 @@ const FixedCard = () => {
         </div>
         <div className="icons-container icon-link">
           <a
+            color="#1DA1F2"
             className="icon-link icon-link-"
             href="https://twitter.com/quarjowusu/"
             target="_blank"
@@ -63,6 +64,7 @@ const FixedCard = () => {
         </div>
         <div className="icons-container icon-link-">
           <a
+            color="#E1306C"
             className="icon-link icon-link"
             href="https://www.instagram.com/quarjowusu/"
             target="_blank"
@@ -74,8 +76,8 @@ const FixedCard = () => {
       </div>
       <div className="card-text">
         <p className="text-body-secondary">
-          <small className="text-sm-center text-capitalize">
-            &copy; 2023 kwadwo. All Rights Reserved
+          <small className="text-sm-center ">
+            &copy; 2023 young.codevault. All Rights Reserved
           </small>
         </p>
       </div>

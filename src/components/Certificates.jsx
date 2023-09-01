@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const CertificationCarousel = () => {
   return (
-    <div className="text">
+    <div className="text container">
       <div className="card-body">
         <i
           data-aos="fade-right"

@@ -1,0 +1,32 @@
+/* Education.css */
+.education-timeline {
+    padding: 20px; /* Add spacing as needed */
+  }
+  
+  .education-entry {
+    display: flex;
+    margin-bottom: 20px; /* Adjust the spacing between entries */
+  }
+  
+  .education-icon {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust the spacing between the icon and details */
+  }
+  
+  .education-date {
+    font-size: 14px;
+    color: #555; /* Adjust the color */
+  }
+  
+  .education-title {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .education-institution {
+    font-size: 14px;
+    color: #777; /* Adjust the color */
+  }
+  

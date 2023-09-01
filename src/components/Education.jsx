@@ -5,7 +5,7 @@ const Education = () => {
 
 
   return (
-    <div>
+    <div className=" container">
       <div className="text-start card-body">
         <i data-aos="fade-right" className="fa fa-university fa-1x fa-ico text-uppercase">
           {" "}

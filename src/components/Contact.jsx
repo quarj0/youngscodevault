@@ -10,7 +10,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-fluid text-start">
+    <div className="container">
       <i data-aos="fade-right" className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
         {" "}
         Contact Me{" "}
@@ -37,6 +37,7 @@ const Contact = () => {
           </div>
         </div>
       </form>
+      <hr className=" text-success" />
     </div>
   );
 };

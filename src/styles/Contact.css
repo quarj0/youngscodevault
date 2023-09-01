@@ -1,5 +1,7 @@
 .btn{
-    border-radius: 200px;
-    font-size: 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
 }
 
