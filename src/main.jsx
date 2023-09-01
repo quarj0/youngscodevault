@@ -3,9 +3,13 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { inject } from '@vercel/analytics';
+import { inject, createLogger } from '@vercel/analytics';
  
-
+const analytics = createLogger({
+  site:'https://youngcodevault.vercel.app',
+  
+});
+inject();
 // eslint-disable-next-line react-refresh/only-export-components
 const InitializeAOS = () => {
   useEffect(() => {
@@ -17,7 +21,6 @@ const InitializeAOS = () => {
   }, []);
 };
 
-inject();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
