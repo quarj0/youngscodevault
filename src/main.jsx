@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { inject } from '@vercel/analytics';
+ 
 
 // eslint-disable-next-line react-refresh/only-export-components
 const InitializeAOS = () => {
@@ -14,6 +16,8 @@ const InitializeAOS = () => {
     });
   }, []);
 };
+
+inject();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
