@@ -13,7 +13,7 @@ const FixedCard = () => {
   return (
     <div className="card container-fluid text-bg-dark p-1 fixed-card">
       <h2 className="text-title registered fw-bold fs-2 text-capitalize">
-        Young <span className="custom-shorthand-k"></span>
+        kwadwo <span className="custom-shorthand-k"></span>
       </h2>
       <div className="text-body">
         <div className="text-body-secondary text-end">
@@ -25,10 +25,10 @@ const FixedCard = () => {
           <small className="text-sm-center text-break fs-6">& Programmer</small>
         </div>
       </div>
-      <img src="src/assets/mypic.jpg" alt="mypic" className="mypic" />
+      <img src="/assets/mypic.jpg" alt="mypic" className="mypic" />
 
       <p className="text-body-secondary mt-4">
-        hello@young.coder <br />
+        hello@k.h4ack.c0d3s <br />
         Base in Ejisu-Kumasi, Gh</p>
       <div className="social-icons">
         <div className="icons-container icon-link">
