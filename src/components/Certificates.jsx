@@ -1,4 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CCFSA from "../assets/images/CCFSA.png";
+import CRPOSS from "../assets/images/CRPOSS.png";
+import ICTCA from "../assets/images/ICTCA.png";
+import NSDV from "../assets/images/NSDV.png";
+import DME from "../assets/images/DME.png";
+
 
 const CertificationCarousel = () => {
   return (
@@ -20,35 +27,35 @@ const CertificationCarousel = () => {
         <Carousel className="d-inline-block w-50">
           <Carousel.Item>
             <img
-              src="src/assets/images/CCFSA.png"
+              src={CCFSA}
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="src/assets/images/CRPOSS.png"
+              src={CRPOSS}
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="src/assets/images/ICTCA.png"
+              src={ICTCA}
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="src/assets/images/NSDV.png"
+              src={NSDV}
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="src/assets/images/DME.png"
+              src={DME}
               className="d-block w-100"
               alt="cert-img"
             />
