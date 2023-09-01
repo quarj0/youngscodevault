@@ -1,5 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import systemresponse from "../assets/systemresponse.png";
+import almamingle from "../assets/almamingle.png";
+import almab from "../assets/almamingleb.png";
+import traveljournal from "../assets/traveljournal.webm";
 
 const Advantages = () => {
   return (
@@ -18,7 +21,7 @@ const Advantages = () => {
         <div className="col" data-aos="fade-right">
           <div className="card h-100">
             <img
-              src="src/assets/systemresponse.png"
+              src={systemresponse}
               className="card-img-top"
               alt="system-response-analyser"
             />
@@ -62,21 +65,22 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <div className="col" data-aos="fade-left"> 
+        <div className="col" data-aos="fade-left">
           <div className="card h-100">
-            <img src="src/assets/almamingle.png" className="card-img-top" alt="site-img" />
+            <img src={almamingle} className="card-img-top" alt="site-img" />
             <div className="card-body">
               <h5 className="card-header text-center">
-                AlmaMingle <small className="m-3">[In Progress!]</small>{" "}
+                AlmaMingle <small className="m-3 text-danger">[In Progress!]</small>{" "}
               </h5>
               <p className="card-subtitle mt-3 text-body-primary">
                 A webapp for university students&apos; to find and make friends
                 from different universities in Ghana. <br /> This project uses
                 frameworks such as Django and Django Rest Framework for the
                 backend and ReactJS for the frontend.
-                <br/>
-                <br/>
-                This project is built in two parts: the backend and the frontend.
+                <br />
+                <br />
+                This project is built in two parts: the backend and the
+                frontend.
               </p>
               <p className="text-body-primary">Features</p>
               <ul className="text-body-primary">
@@ -103,19 +107,38 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-top">
           <div className="card h-100">
-            <img src="..." className="card-img-top" alt="site-img" />
+            <img src={almab} className="card-img-top" alt="site-img" />
             <div className="card-body">
-              <h5 className="card-title">Template Market</h5>
-              <p className="card-text">In progress!</p>
+              <h5 className="card-header text-center">
+                AlmaMingle Backend
+                <small className="m-3 text-danger">[In progress!]</small>{" "}
+              </h5>
+              <p className="card-text">
+                Django Rest Framework Backend of AlmaMingle. Your contributions
+                are welcome!
+              </p>
+              <p className="link-to-project text-sm-center">
+                <small>
+                  <a
+                    className="btn btn-success w-50"
+                    href="https://github.com/qquarjo/almamingleb"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>
+                </small>
+              </p>
             </div>
           </div>
         </div>
         <div className="col" data-aos="fade-down">
           <div className="card h-100">
-            <img src="..." className="card-img-top" alt="app-img" />
+            <img src={traveljournal} className="card-img-top" alt="app-img" />
             <div className="card-body">
-              <h5 className="card-title">Weather App (Demo)</h5>
-              <p className="card-text">Demo will be updated soon!</p>
+              <h5 className="card-title">Travel Journal</h5>
+              <p className="card-text">A react app minimal project for beginners learning react.
+              </p>
             </div>
           </div>
         </div>
