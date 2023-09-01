@@ -20,35 +20,35 @@ const CertificationCarousel = () => {
         <Carousel className="d-inline-block w-50">
           <Carousel.Item>
             <img
-              src="./src/assets/images/CCFSA.png"
+              src="src/assets/images/CCFSA.png"
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="./src/assets/images/CRPOSS.png"
+              src="src/assets/images/CRPOSS.png"
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="./src/assets/images/ICTCA.png"
+              src="src/assets/images/ICTCA.png"
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="./src/assets/images/NSDV.png"
+              src="src/assets/images/NSDV.png"
               className="d-block w-100"
               alt="cert-img"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src="./src/assets/images/DME.png"
+              src="src/assets/images/DME.png"
               className="d-block w-100"
               alt="cert-img"
             />
