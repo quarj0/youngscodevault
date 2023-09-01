@@ -28,7 +28,7 @@ const FixedCard = () => {
       <img src="/assets/mypic.jpg" alt="mypic" className="mypic" />
 
       <p className="text-body-secondary mt-4">
-        hello@k.h4ack.c0d3s <br />
+        hello@youngcodesvault <br />
         Base in Ejisu-Kumasi, Gh</p>
       <div className="social-icons">
         <div className="icons-container icon-link">
