@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import systemresponse from "../assets/systemresponse.png";
 import almamingle from "../assets/almamingle.png";
 import almab from "../assets/almamingleb.png";
-import traveljournal from "../assets/traveljournal.webm";
+import traveljournal from "../assets/tjournal.png";
 
 const Advantages = () => {
   return (
@@ -70,7 +70,8 @@ const Advantages = () => {
             <img src={almamingle} className="card-img-top" alt="site-img" />
             <div className="card-body">
               <h5 className="card-header text-center">
-                AlmaMingle <small className="m-3 text-danger">[In Progress!]</small>{" "}
+                AlmaMingle{" "}
+                <small className="m-3 text-danger">[In Progress!]</small>{" "}
               </h5>
               <p className="card-subtitle mt-3 text-body-primary">
                 A webapp for university students&apos; to find and make friends
@@ -137,7 +138,20 @@ const Advantages = () => {
             <img src={traveljournal} className="card-img-top" alt="app-img" />
             <div className="card-body">
               <h5 className="card-title">Travel Journal</h5>
-              <p className="card-text">A react app minimal project for beginners learning react.
+              <p className="card-text">
+                A react app minimal project for beginners learning react.
+              </p>
+              <p className="link-to-project text-sm-center">
+                <small>
+                  <a
+                    className="btn btn-success w-50"
+                    href="https://github.com/qquarjo/travel-journal"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Project
+                  </a>
+                </small>
               </p>
             </div>
           </div>
