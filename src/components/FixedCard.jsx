@@ -25,7 +25,7 @@ const FixedCard = () => {
           <small className="text-sm-center text-break fs-6">& Programmer</small>
         </div>
       </div>
-      <img src="/assets/mypic.jpg" alt="mypic" className="mypic" />
+      <img src="./src/assets/mypic.jpg" alt="mypic" className="mypic" />
 
       <p className="text-body-secondary mt-4">
         hello@youngcodesvault <br />
