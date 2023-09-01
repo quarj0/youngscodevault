@@ -1,32 +1,63 @@
 /* Education.css */
-.education-timeline {
-    padding: 20px; /* Add spacing as needed */
-  }
-  
-  .education-entry {
-    display: flex;
-    margin-bottom: 20px; /* Adjust the spacing between entries */
-  }
-  
-  .education-icon {
-    flex: 0 0 auto;
-    margin-right: 20px; /* Adjust the spacing between the icon and details */
-  }
-  
-  .education-date {
-    font-size: 14px;
-    color: #555; /* Adjust the color */
-  }
-  
-  .education-title {
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .education-institution {
-    font-size: 14px;
-    color: #777; /* Adjust the color */
-  }
-  
+
+/* Container styles */
+.edu-cont {
+  background-color: #f9f9f9; /* Background color for the container */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the container */
+}
+
+/* Top section styles */
+.top-section {
+  text-align: center;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+}
+
+/* Line styles */
+.line {
+  position: absolute;
+  background-color: rgb(116, 227, 176) ; /* Line color */
+  width: 2px;
+  height: 60%; /* Full height of the container */
+  left: 5%; /* Center the line horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
+
+/* Bead styles */
+.bead {
+  background-color: rgb(116, 227, 176); /* Bead color */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0; /* Align beads to the top of the container */
+  left: 5%; /* Center beads horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
+
+/* Section styles */
+.section {
+  padding: 20px;
+  margin-left: 10px; /* Spacing between sections */
+}
+
+/* Content styles within each section */
+.content {
+  margin-left: 30px; /* Spacing between beads and content */
+}
+
+/* Additional styles */
+.text-body-primary {
+  font-size: 16px;
+  color: #555; /* Text color */
+}
+
+.education-date {
+  font-weight: bold;
+  margin-top: 5px;
+}

@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container-fluid">
         <div className="row">
             <div className="col text-center">
-            <p className="text-body-secondary">
+            <p className="text-body-primary">
                 &copy; 2023 Young.CodeVault. All Rights Reserved.
             </p>
             </div>

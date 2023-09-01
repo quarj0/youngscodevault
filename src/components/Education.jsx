@@ -1,25 +1,46 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import '../styles/Education.css';
 
 const Education = () => {
-
-
   return (
-    <div className=" container">
-      <div className="text-start card-body">
-        <i data-aos="fade-right" className="fa fa-university fa-1x fa-ico text-uppercase">
+    <div className="container edu-container">
+      <div className="top-section">
+        <i
+          data-aos="fade-right"
+          className="fa fa-university fa-1x fa-ico mb-3 text-uppercase"
+        >
           {" "}
-          Education{" "}
+          Education
         </i>
-        <p data-aos="fade" className="text-wrap">
-          <small className="text-body-primary"> 2020 - present </small>
-        </p>
-        <h5 data-aos="fade-right" className="text-header text-wrap">
-          Bachelor Degree of Information Technology
-        </h5>
-        <small data-aos="fade-left" className="text-body-primary">
-          University of Cape Coast{" "}
-        </small>
+      </div>
+      <div className="timeline">
+        <div className="line"></div>
+
+        <div className="section">
+          <div className="bead"></div>
+          <div className="content">
+            <h3>Bachelor Degree Information Technology</h3>
+            <p className="text-body-primary institution">
+              University of Cape Coast
+            </p>
+            <p className="text-body-primary education-date">2020 - Present</p>
+          </div>
+        </div>
+
+        <div className="section">
+          <div className="bead"></div>
+          <div className="content">
+            <h3>High School Diploma</h3>
+            <p className="text-body-primary institution">
+              Collins Senior High School
+            </p>
+            <p className="text-body-primary education-date">2016 - 2019</p>
+
+            <p className="text-body-primary education-date">
+              <strong>Major:</strong> General Science
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const CertificationCarousel = () => {
           Certifications
         </i>
       </div>
-      <p className="text-body-secondary fs-6">
+      <p className="text-body-primary fs-6">
         Courses and Certifications I have completed to improve my skills and
         knowledge.
       </p>

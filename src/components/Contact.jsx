@@ -23,7 +23,7 @@ const Contact = () => {
           </p>
 
           <div className="contact message">
-            <p className="text-body-secondary fs-6">
+            <p className="text-body-primary fs-6">
               I&apos;m currently looking for new opportunities, my inbox is
               always open. Whether you have a question or just want to say hi,
               I&apos;ll try my best to get back to you!

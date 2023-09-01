@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@vercel/analytics": "^1.0.2",
     "aos": "^2.3.4",
     "body-parser": "^1.20.2",

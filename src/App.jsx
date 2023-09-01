@@ -1,5 +1,4 @@
 import "./App.css";
-// import FixedCard from "./components/FixedCard.jsx";
 import ContentCard from "./components/ContentCard.jsx";
 
 const App = () => {

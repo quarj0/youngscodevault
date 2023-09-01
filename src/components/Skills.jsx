@@ -11,7 +11,7 @@ import {
 
 const MySkills = () => {
   return (
-    <div>
+    <div className="container">
       <div className="text-start card-body about">
         <i
           data-aos="fade-right"

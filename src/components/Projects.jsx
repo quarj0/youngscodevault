@@ -26,25 +26,25 @@ const Advantages = () => {
               <h5 className="card-header text-center">
                 System Response Analyser
               </h5>
-              <p className="card-subtitle mt-3 text-body-secondary">
+              <p className="card-subtitle mt-3 text-body-primary">
                 A script written in python to assess and evaluate the behavior
                 and performance of a computer system. Platforms: Linux OS and
                 MacOS
-                <p className="text-body-secondary">Features</p>
-                <ul className="text-body-secondary">
-                  <li className="text-body-secondary">
+                <p className="text-body-primary">Features</p>
+                <ul className="text-body-primary">
+                  <li className="text-body-primary">
                     Measuring response time for a given url
                   </li>
-                  <li className="text-body-secondary">
+                  <li className="text-body-primary">
                     Checking if operatiing system is updated and patched
                   </li>
-                  <li className="text-body-secondary">
+                  <li className="text-body-primary">
                     Checking availability of updates
                   </li>
-                  <li className="text-body-secondary">
+                  <li className="text-body-primary">
                     Checking disk, memory and CPU usage{" "}
                   </li>
-                  <li className="text-body-secondary">etc</li>
+                  <li className="text-body-primary">etc</li>
                 </ul>
               </p>
               <p className="link-to-project text-sm-center ">
@@ -69,7 +69,7 @@ const Advantages = () => {
               <h5 className="card-header text-center">
                 AlmaMingle <small className="m-3">[In Progress!]</small>{" "}
               </h5>
-              <p className="card-subtitle mt-3 text-body-secondary">
+              <p className="card-subtitle mt-3 text-body-primary">
                 A webapp for university students&apos; to find and make friends
                 from different universities in Ghana. <br /> This project uses
                 frameworks such as Django and Django Rest Framework for the
@@ -78,8 +78,8 @@ const Advantages = () => {
                 <br/>
                 This project is built in two parts: the backend and the frontend.
               </p>
-              <p className="text-body-secondary">Features</p>
-              <ul className="text-body-secondary">
+              <p className="text-body-primary">Features</p>
+              <ul className="text-body-primary">
                 <li>User authentication and authorization</li>
                 <li>User profile management</li>
                 <li>User can search for other users by filtering</li>

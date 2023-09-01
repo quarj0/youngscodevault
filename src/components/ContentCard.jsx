@@ -32,7 +32,7 @@ const ContentCard = () => {
   }, []);
 
   return (
-    <div className="row content-container container-fluid bg-img">
+    <div className="row content-container container-fluid">
       {isLoading && (
         <div className="col-12 d-flex justify-content-center align-items-center">
           <div className="text-center">

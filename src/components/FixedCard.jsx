@@ -11,28 +11,34 @@ const FixedCard = () => {
   };
 
   return (
-    <div className="card container-fluid text-bg-dark p-1 fixed-card">
-      <h2 className="registered fw-bold fs-2 text-capitalize text-left">
+    <div className="card container-fluid p-1 fixed-card ">
+      <h2 className="registered fw-bold fs-2 text-capitalize">
         young <span className="custom-shorthand-k"></span>
       </h2>
       <div className="text-body">
-        <div className="text-body-secondary text-end">
+        <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">
             Ethical Hacker
           </small>
         </div>
-        <div className="text-body-secondary text-end">
+        <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">& Programmer</small>
         </div>
       </div>
-      <img src="https://avatars.githubusercontent.com/u/54241472?v=4" alt="mypic" className="mypic" />
+      <img
+        src="https://avatars.githubusercontent.com/u/54241472?v=4"
+        alt="mypic"
+        className="mypic"
+      />
 
-      <p className="text-body-secondary mt-4">
-        hello@youngcodesvault <br />
-        Base in Ejisu-Kumasi, Gh</p>
+      <p className="text-body-primary mt-4">
+        hello@young.codevault <br />
+        Base in Ejisu-Kumasi, Gh
+      </p>
       <div className="social-icons">
         <div className="icons-container icon-link">
-          <a color="black"
+          <a
+            color="black"
             className="icon-link icon-link"
             href="https://github.com/quarj0/"
             target="_blank"
@@ -42,7 +48,8 @@ const FixedCard = () => {
           </a>
         </div>
         <div className="icons-container icon-link">
-          <a color="blue"
+          <a
+            color="blue"
             className="icon-link icon-link"
             href="https://linkedin.com/in/quarjo/"
             target="_blank"
@@ -75,7 +82,7 @@ const FixedCard = () => {
         </div>
       </div>
       <div className="card-text">
-        <p className="text-body-secondary">
+        <p className="text-body-primary">
           <small className="text-sm-center ">
             &copy; 2023 young.codevault. All Rights Reserved
           </small>
