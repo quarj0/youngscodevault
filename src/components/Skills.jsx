@@ -7,6 +7,7 @@ import {
   FaJs,
   FaDatabase,
   FaRocket,
+  FaJava,
 } from "react-icons/fa";
 
 const MySkills = () => {
@@ -83,6 +84,13 @@ const MySkills = () => {
               <span className="percentage">68%</span>
             </div>
           </div>
+          <div data-aos="fade-up" className="skills">
+            <p className="language">Java</p>
+            <div className="circle">
+              <FaJava color="red" className="fadvantage" />
+              <span className="percentage">50%</span>
+              </div>
+              </div>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ const Introduction = () => {
           <span className="text-success m-2 text-capitalize">Young</span>,
           <br />
           <span className="text-body-primary">
-           Cybersecurity Analyst and Developer
+           Cybersecurity Analyst and Programmer
           </span>
         </h1>
         <p className="text-wrap text-body-primary">

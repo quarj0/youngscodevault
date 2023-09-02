@@ -1,10 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import systemresponse from "../assets/systemresponse.png";
 import almamingle from "../assets/almamingle.png";
-import almab from "../assets/almamingleb.png";
 import traveljournal from "../assets/tjournal.png";
+import appscreen from '../assets/interface.png';
+import statement from '../assets/statement.png';
+import mobiletrans from '../assets/mobiletrans.png';
+import verify from '../assets/verify.png';
+import ImageCarousel from './ImageCarousel';
 
 const Advantages = () => {
+  const AtmImages = [appscreen, statement, mobiletrans, verify];
   return (
     <div className="container-fluid">
       <div className="container text-start card-body">
@@ -15,7 +20,7 @@ const Advantages = () => {
       </div>
       <h3 className="card-title">
         <span className="text-body text-start fs-1">Featured</span>
-        <span className="text-success m-lg-1 fs-1">Projects</span>
+        <span className="text-success m-lg-1 fs-1"></span>
       </h3>
       <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
         <div className="col" data-aos="fade-right">
@@ -108,21 +113,25 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-top">
           <div className="card h-100">
-            <img src={almab} className="card-img-top" alt="site-img" />
+            <ImageCarousel images={AtmImages} />
             <div className="card-body">
               <h5 className="card-header text-center">
-                AlmaMingle Backend
-                <small className="m-3 text-danger">[In progress!]</small>{" "}
+                FingerPrint Based ATM Simulator{" "}
               </h5>
               <p className="card-text">
-                Django Rest Framework Backend of AlmaMingle. Your contributions
-                are welcome!
+                A simple ATM simulator built with Java programming language.
+                It&apos;s a full GUI application that allows users to perform
+                basic ATM operations such as fingerprint verification, deposit,
+                withdraw, check balance, etc. It uses the fingerprint sensor to
+                verify the user&apos;s identity. No database is used in this
+                project. All data is logically stored in the application itself
+                and can be accessed by the user. Framework used: JavaSwing
               </p>
               <p className="link-to-project text-sm-center">
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/qquarjo/almamingleb"
+                    href="https://github.com/qquarjo/atm-simulator"
                     target="_blank"
                     rel="noreferrer"
                   >

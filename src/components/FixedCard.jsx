@@ -18,7 +18,7 @@ const FixedCard = () => {
       <div className="text-body-primary">
         <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">
-            Ethical Hacker
+            Cybersecurity Analyst
           </small>
         </div>
         <div className="text-body-primary text-end">
