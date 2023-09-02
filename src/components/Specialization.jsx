@@ -3,7 +3,7 @@ import "../styles/Specialization.css";
 
 const Specialization = () => {
   return (
-    <div className="special-container container-fluid">
+    <div className="special-container container-fluid text-body-primary">
       <div className="card-title text-start mt-4">
         <i data-aos="fade-right" className="fa fa-users-cog fa-1x fa-ico text-uppercase"> Services </i>
         <h2 className="card-title ">

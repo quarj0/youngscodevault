@@ -11,6 +11,7 @@ import FixedCard from "./FixedCard";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
+import WorkExp from "./WorkExp.jsx";
 import "../styles/ContentCard.css";
 
 const ContentCard = () => {
@@ -52,8 +53,9 @@ const ContentCard = () => {
             <Introduction />
             <About />
             <Education />
-            <Specialization />
             <Certificate />
+            <WorkExp />
+            <Specialization />
             <Skills />
             <Projects />
             <Contact />

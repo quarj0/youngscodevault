@@ -10,7 +10,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container text-body-primary">
       <i data-aos="fade-right" className="fa fa-contact-card fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
         {" "}
         Contact Me{" "}

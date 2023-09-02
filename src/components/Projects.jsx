@@ -1,17 +1,27 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import systemresponse from "../assets/systemresponse.png";
-import almamingle from "../assets/almamingle.png";
-import traveljournal from "../assets/tjournal.png";
 import appscreen from '../assets/interface.png';
 import statement from '../assets/statement.png';
 import mobiletrans from '../assets/mobiletrans.png';
 import verify from '../assets/verify.png';
+
+import almamingle from "../assets/almamingle.png";
+import almaprofile from '../assets/almaprofile.png';
+import almareg from '../assets/almareg.png';
+import almatest from '../assets/almatest.png';
+
+import traveljournal from "../assets/tjournal.png";
+import travelstart from '../assets/travelstart.png';
+
 import ImageCarousel from './ImageCarousel';
+
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
+  const AlmaImages = [almareg,almatest, almaprofile, almamingle];
+  const TravelImages = [travelstart, traveljournal];
   return (
-    <div className="container-fluid">
+    <div className="container-fluid text-body-primary">
       <div className="container text-start card-body">
         <i className="fa fa-building fa-1x fa-ico mt-4 mb-2  text-uppercase">
           {" "}
@@ -19,8 +29,8 @@ const Advantages = () => {
         </i>
       </div>
       <h3 className="card-title">
-        <span className="text-body text-start fs-1">Featured</span>
-        <span className="text-success m-lg-1 fs-1"></span>
+        <span className="text-body-primaryy text-start fs-1">Featured</span>
+        <span className="text-success m-lg-1 fs-1">Projects</span>
       </h3>
       <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
         <div className="col" data-aos="fade-right">
@@ -72,7 +82,7 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-left">
           <div className="card h-100">
-            <img src={almamingle} className="card-img-top" alt="site-img" />
+          <ImageCarousel images={AlmaImages} /> 
             <div className="card-body">
               <h5 className="card-header text-center">
                 AlmaMingle{" "}
@@ -144,11 +154,14 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-down">
           <div className="card h-100">
-            <img src={traveljournal} className="card-img-top" alt="app-img" />
-            <div className="card-body">
+          <ImageCarousel images={TravelImages} />            <div className="card-body">
               <h5 className="card-title">Travel Journal</h5>
               <p className="card-text">
-                A react app minimal project for beginners learning react.
+                A simple travel journal app built with ReactJS. It allows users
+                see the list of places they have visited with date. The places
+                can be viewed on a map. The app uses the Google Maps API to
+                display the map. 
+                
               </p>
               <p className="link-to-project text-sm-center">
                 <small>

@@ -9,20 +9,16 @@ import DME from "../assets/images/DME.png";
 
 const CertificationCarousel = () => {
   return (
-    <div className="text-primary container">
+    <div className="text-body-primary container">
       <div className="card-body">
         <i
           data-aos="fade-right"
           className="fa fa-certificate fa-1x fa-ico mb-3 text-uppercase"
         >
           {" "}
-          Certifications
+          Qualifications
         </i>
       </div>
-      <p className="text-body-primary fs-6">
-        Courses and Certifications I have completed to improve my skills and
-        knowledge.
-      </p>
       <div className="card-text text-center">
         <Carousel className="d-inline-block w-50">
           <Carousel.Item>

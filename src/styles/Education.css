@@ -8,10 +8,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the container */
 }
 
-/* Top section styles */
-.top-section {
-  text-align: center;
-}
+
 
 /* Timeline styles */
 .timeline {
@@ -21,21 +18,22 @@
 /* Line styles */
 .line {
   position: absolute;
-  background-color: rgb(116, 227, 176); /* Line color */
+  background-color: #28a745; /* Line color */
   width: 2px;
-  height: 60%; /* Full height of the container */
+  height: 85%; /* Full height of the container */
   left: 5%; /* Center the line horizontally */
-  transform: translateX(-50%); /* Adjust for centering */
+  transform: translateX(-50%);
+   
 }
 
 /* Bead styles */
 .bead {
-  background-color: rgb(116, 227, 176); /* Bead color */
+  background-color: #28a745; /* Bead color */
   width: 20px;
   height: 20px;
   border-radius: 50%;
   position: absolute;
-  top: 0; /* Align beads to the top of the container */
+  top: 2; /* Align beads to the top of the container */
   left: 5%; /* Center beads horizontally */
   transform: translateX(-50%); /* Adjust for centering */
 }

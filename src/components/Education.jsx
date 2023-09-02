@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../styles/Education.css';
+import "../styles/Education.css";
 
 const Education = () => {
   return (
@@ -13,6 +13,11 @@ const Education = () => {
           Education
         </i>
       </div>
+      <div className="title">
+        <h2>Education & 
+          <span className="text-success"> Qualifications</span>
+        </h2>
+      </div>
       <div className="timeline">
         <div className="line"></div>
 
@@ -20,25 +25,21 @@ const Education = () => {
           <div className="bead"></div>
           <div className="content">
             <h3>Bachelor Degree Information Technology</h3>
-            <p className="text-body institution">
-              University of Cape Coast
-            </p>
-            <p className="text-body education-date">2020 - Present</p>
+            <p className=" institution">University of Cape Coast</p>
+            <small className=" education-date">2020 - Present</small>
           </div>
         </div>
 
         <div className="section">
           <div className="bead"></div>
           <div className="content">
-            <h3>High School Diploma</h3>
-            <p className="text-body institution">
-              Collins Senior High School
-            </p>
-            <p className="text-body education-date">2016 - 2019</p>
-
-            <p className="text-body education-date">
+            <h3>High School</h3>
+            <p className=" institution">Collins Senior High School</p>
+            <small className="education-date">2016 - 2019</small>
+          <br />
+            <small className=" education-date">
               <strong>Major:</strong> General Science
-            </p>
+            </small>
           </div>
         </div>
       </div>
