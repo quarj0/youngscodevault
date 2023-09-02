@@ -37,10 +37,10 @@ const ContentCard = () => {
       {isLoading && (
         <div className="col-12 d-flex justify-content-center align-items-center">
           <div className="text-center">
-            <div className="spinner-border" role="status">
-              <span className="sr-only">Loading...</span>
+            <div className="spinner-border text-success" role="status">
+              <span className="sr-only text-body-primary">Loading...</span>
             </div>
-            <p>Loading...</p>
+            <p className="text-body-primary">Loading...</p>
           </div>
         </div>
       )}
