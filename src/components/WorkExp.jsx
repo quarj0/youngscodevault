@@ -75,7 +75,7 @@ const Work = () => {
                 Managed the company&apos;s website and social media platforms.
               </li>
             </ul>
-            <small className="education-date">2019 - 2020</small>
+            <small className="education-date">2020 - 2021</small>
           </div>
         </div>
 

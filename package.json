@@ -18,11 +18,13 @@
     "bootstrap": "^5.3.1",
     "express": "^4.18.2",
     "express-rate-limit": "^6.9.0",
+    "lazyload": "^2.0.0-rc.2",
     "nodemailer": "^6.9.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
