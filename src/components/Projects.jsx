@@ -5,8 +5,7 @@ import statement from '../assets/statement.png';
 import mobiletrans from '../assets/mobiletrans.png';
 import verify from '../assets/verify.png';
 
-import almamingle from "../assets/almamingle.png";
-import almaprofile from '../assets/almaprofile.png';
+
 import almareg from '../assets/almareg.png';
 import almatest from '../assets/almatest.png';
 
@@ -18,7 +17,7 @@ import ImageCarousel from './ImageCarousel';
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
-  const AlmaImages = [almareg,almatest, almaprofile, almamingle];
+  const AlmaImages = [almareg,almatest];
   const TravelImages = [travelstart, traveljournal];
   return (
     <div className="container-fluid text-body-primary">
