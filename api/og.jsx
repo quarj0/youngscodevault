@@ -8,7 +8,7 @@ export default function handler(request) {
   const { searchParams } = request.url;
   const username = searchParams.get('quarj0');
   if (!username) {
-    return new ImageResponse(<>Visit with &quot;?username=vercel&quot;</>, {
+    return new ImageResponse(<>Visit with &quot;?quarj0=vercel&quot;</>, {
       width: 1200,
       height: 630,
     });

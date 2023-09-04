@@ -13,6 +13,7 @@ import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
 import WorkExp from "./WorkExp.jsx";
 import "../styles/ContentCard.css";
+// import Download from "./Download.jsx";
 
 const ContentCard = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -59,6 +60,7 @@ const ContentCard = () => {
             <Skills />
             <Projects />
             <Contact />
+            {/* <Download /> */}
             <Footer />
           </div>
         </>
