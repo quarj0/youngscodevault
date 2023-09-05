@@ -1,5 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CCFSA from "../assets/images/CCFSA.png";
+import CRPOSS from "../assets/images/CRPOSS.png";
+import ICTCA from "../assets/images/ICTCA.png";
+import NSDV from "../assets/images/NSDV.png";
+import DME from "../assets/images/DME.png";
 
 const CertificationCarousel = () => {
   return (
@@ -23,35 +28,35 @@ const CertificationCarousel = () => {
           <Carousel className="d-inline-block w-50">
             <Carousel.Item>
               <img
-                src={`https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QP8P7YUJD7HH/CERTIFICATE_LANDING_PAGE~QP8P7YUJD7HH.jpeg`}
+                src={ICTCA}
                 className="d-block w-100"
                 alt="cert-img"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                src={`https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~XHYDSERR686T/CERTIFICATE_LANDING_PAGE~XHYDSERR686T.jpeg`}
+                src={CRPOSS}
                 className="d-block w-100"
                 alt="cert-img"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                src={`https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~9WR85FNZ6GHM/CERTIFICATE_LANDING_PAGE~9WR85FNZ6GHM.jpeg`}
+                src={DME}
                 className="d-block w-100"
                 alt="cert-img"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                src={`https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QQNSZJF4ZPCB/CERTIFICATE_LANDING_PAGE~QQNSZJF4ZPCB.jpeg`}
+                src={CCFSA}
                 className="d-block w-100"
                 alt="cert-img"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                src={`https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UXT8LBK2MK34/CERTIFICATE_LANDING_PAGE~UXT8LBK2MK34.jpeg`}
+                src={NSDV}
                 className="d-block w-100"
                 alt="cert-img"
               />
