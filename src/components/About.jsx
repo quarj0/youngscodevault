@@ -14,7 +14,7 @@ const About = () => {
               About{" "}
             </i>
           </div>
-          <div className="cols-md-10">
+          <div className="cols-md-10 m-2">
             <h3 className="text-header">
               <span>Every day is a new opportunity to</span>{" "}
               <span className="text-success">learn something new</span>.

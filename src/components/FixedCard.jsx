@@ -39,7 +39,7 @@ const FixedCard = () => {
         <div className="icons-container icon-link">
           <a
             color="black"
-            className="icon-link icon-link"
+            className="icon-link"
             href="https://github.com/quarj0/"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const FixedCard = () => {
         <div className="icons-container icon-link">
           <a
             color="blue"
-            className="icon-link icon-link"
+            className="icon-link"
             href="https://linkedin.com/in/quarjo/"
             target="_blank"
             rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const FixedCard = () => {
         <div className="icons-container icon-link">
           <a
             color="#1DA1F2"
-            className="icon-link icon-link-"
+            className="icon-link-"
             href="https://twitter.com/quarjowusu/"
             target="_blank"
             rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const FixedCard = () => {
         <div className="icons-container icon-link-">
           <a
             color="#E1306C"
-            className="icon-link icon-link"
+            className="icon-link"
             href="https://www.instagram.com/quarjowusu/"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +92,7 @@ const FixedCard = () => {
         className="btn btn-outline-success btn-sm w-25 text-uppercase"
         onClick={handleMailTo}
       >
-        <i className="fa fa-envelope " /> hire me
+        <i className="fa fa-envelope " /> send message
       </button>
     </div>
   );
