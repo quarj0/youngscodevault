@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 const About = () => {
   return (
     <div className="text-body-primary">
