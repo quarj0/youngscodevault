@@ -24,45 +24,23 @@ const CertificationCarousel = () => {
         </h3>
       </div>
       <div className="card-text text-center bg-transparent">
-        <lazyload>
-          <Carousel className="d-inline-block w-50">
-            <Carousel.Item>
-              <img
-                src={ICTCA}
-                className="d-block w-100"
-                alt="cert-img"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src={CRPOSS}
-                className="d-block w-100"
-                alt="cert-img"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src={DME}
-                className="d-block w-100"
-                alt="cert-img"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src={CCFSA}
-                className="d-block w-100"
-                alt="cert-img"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src={NSDV}
-                className="d-block w-100"
-                alt="cert-img"
-              />
-            </Carousel.Item>
-          </Carousel>
-        </lazyload>
+        <Carousel className="d-inline-block w-50">
+          <Carousel.Item>
+            <img src={ICTCA} className="d-block w-100" alt="cert-img" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={CRPOSS} className="d-block w-100" alt="cert-img" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={DME} className="d-block w-100" alt="cert-img" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={CCFSA} className="d-block w-100" alt="cert-img" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={NSDV} className="d-block w-100" alt="cert-img" />
+          </Carousel.Item>
+        </Carousel>
       </div>
     </div>
   );
