@@ -11,7 +11,10 @@ const Contact = () => {
 
   return (
     <div className="container text-body-primary">
-      <i data-aos="fade-right" className="fa fa-contact-book fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center">
+      <i
+        data-aos="fade-right"
+        className="fa fa-contact-book fa-1x fa-ico mt-4 mb-2 text-uppercase text-sm-center"
+      >
         {" "}
         Contact Me{" "}
       </i>
@@ -24,15 +27,21 @@ const Contact = () => {
 
           <div className="contact message">
             <p className="text-body-primary fs-6">
-              I&apos;m currently looking for new opportunities, my inbox is
-              always open. Whether you have a question or just want to say hi,
-              I&apos;ll try my best to get back to you!
+              I value collaboration, networking, and sharing knowledge. Feel
+              free to reach out via the provided contact information or connect
+              with me on LinkedIn and GitHub. I welcome opportunities for
+              collaboration, discussions on cybersecurity, programming, or any
+              exciting projects.
             </p>
           </div>
 
           <div className="col text-center ">
-           <button className="btn btn-success text-center w-25 text-uppercase" type="submit" onClick={handleMailTo}>
-             send message
+            <button
+              className="btn btn-success text-center w-25 text-uppercase"
+              type="submit"
+              onClick={handleMailTo}
+            >
+              send message
             </button>
           </div>
         </div>
