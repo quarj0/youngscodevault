@@ -33,11 +33,9 @@ export default function handler(request) {
           }}
         >
           <img
-            width="256"
-            height="256"
             src={`https://github.com/${username}.png`}
             style={{
-              borderRadius: 128,
+              borderRadius: 100,
             }}
             alt={`${username}'s GitHub avatar`}
           />

@@ -4,21 +4,28 @@ const Introduction = () => {
   return (
     <div>
       <div className="container text-body-primary ">
-        <i data-aos="fade-right" className="fa fa-home fa-1x fa-ico text-uppercase"> Introduce</i>
+        <i
+          data-aos="fade-right"
+          className="fa fa-home fa-1x fa-ico text-uppercase"
+        >
+          {" "}
+          Introduce
+        </i>
         <h1 className="text-header text-wrap">
-          <span className="text-body-primary ">
-            Hi 👋! I&apos;m
-          </span>
+          <span className="text-body-primary ">Hi 👋! I&apos;m</span>
           <span className="text-success m-2 text-capitalize">Young</span>,
           <br />
           <span className="text-body-primary">
-           Cybersecurity Analyst and Programmer
+            Cybersecurity Analyst and Programmer.
           </span>
         </h1>
         <p className="text-wrap text-body-primary">
-          I develop, protect and pentest, and I love what I do.
-          <br />
-          Just simple like that!
+          Welcome to my portfolio website! This online space serves as a
+          comprehensive showcase of my skills, experiences, and accomplishments
+          in the world of IT, web development, and design. As a dedicated
+          student at the University of Cape Coast in Ghana with a passion for
+          cybersecurity, Python, JavaScript, and web development, this platform
+          reflects my journey and aspirations.
         </p>
       </div>
       <div className="text-center text-body-primary">
