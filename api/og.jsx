@@ -1,4 +1,5 @@
 import { ImageResponse } from "@vercel/og";
+import xss from "xss";
 
 export const config = {
   runtime: "edge",
@@ -7,10 +8,13 @@ export const config = {
 export default function handler(request) {
   try {
     const { searchParams } = new URL(request.url);
-    const username = searchParams.get("quarj0");
+    let username = searchParams.get("quarj0");
 
-    if (!username) {
-      return new ImageResponse('Visit with "?quarj0=vercel"', {
+    username = xss(username);
+
+    const validUsername = /^[A-Za-z0-9_-]+$/;
+    if (!validUsername.test(username)) {
+      return new ImageResponse("Invalid username provided.", {
         width: 1200,
         height: 630,
       });

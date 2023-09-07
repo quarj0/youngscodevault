@@ -8,7 +8,7 @@ const Footer = () => {
           <p className="text-body-primary">
             Thank you for visiting my portfolio website. I hope you find it
             informative and inspiring. I look forward to connecting with you and
-            embarking on this exciting journey togethe
+            embarking on this exciting journey together.
           </p>
           <p className="text-body-primary">
             &copy; 2023 Young.CodeVault. All Rights Reserved.
