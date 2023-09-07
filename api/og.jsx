@@ -2,7 +2,7 @@ import { ImageResponse } from "@vercel/og";
 import xss from "xss";
 
 export const config = {
-  runtime: "edge",
+  runtime: "edge", "firefox": "78", "chrome": "87"
 };
 
 export default function handler(request) {
