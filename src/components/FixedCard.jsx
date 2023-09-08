@@ -92,7 +92,9 @@ const FixedCard = () => {
         className="btn btn-outline-success btn-sm w-25 text-uppercase"
         onClick={handleMailTo}
       >
-        <i className="fa fa-envelope " /> hire me
+        <i className="fa fa-envelope " >
+          <span className="card-text"> hire me</span>
+          </i>
       </button>
     </div>
   );
