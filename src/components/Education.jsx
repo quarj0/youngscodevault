@@ -14,8 +14,8 @@ const Education = () => {
         </i>
       </div>
       <div className="title">
-        <h2>Education & 
-          <span className="text-success"> Qualifications</span>
+        <h2>
+          Education &<span className="text-success"> Qualifications</span>
         </h2>
       </div>
       <div className="timeline">
@@ -36,7 +36,7 @@ const Education = () => {
             <h3>High School</h3>
             <p className=" institution">Collins Senior High School</p>
             <small className="education-date">2016 - 2019</small>
-          <br />
+            <br />
             <small className=" education-date">
               <strong>Major:</strong> General Science
             </small>

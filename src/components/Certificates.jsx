@@ -1,19 +1,14 @@
-import Carousel from "react-bootstrap/Carousel";
-import "bootstrap/dist/css/bootstrap.min.css";
-import CCFSA from "../assets/images/CCFSA.png";
-import CRPOSS from "../assets/images/CRPOSS.png";
-import ICTCA from "../assets/images/ICTCA.png";
-import NSDV from "../assets/images/NSDV.png";
-import DME from "../assets/images/DME.png";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
-const CertificationCarousel = () => {
+const Certifications = () => {
   return (
-    <div className="text-body-primary container">
-      <div className="card-body">
-        <i
-          data-aos="fade-right"
-          className="fa fa-certificate fa-1x fa-ico mb-3 text-uppercase"
-        >
+    <div className="card">
+      <div className="card-header bg-primary text-white text-uppercase">
+        <i className="fa fa-certificate fa-1x fa-ico mb-3 text-uppercase">
           {" "}
           Qualifications
         </i>
@@ -23,27 +18,66 @@ const CertificationCarousel = () => {
           awards & <span className="text-success">achievements</span>
         </h3>
       </div>
-      <div className="card-text text-center bg-transparent">
-        <Carousel className="d-inline-block w-50">
-          <Carousel.Item>
-            <img src={ICTCA} className="d-block w-100" alt="cert-img" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={CRPOSS} className="d-block w-100" alt="cert-img" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={DME} className="d-block w-100" alt="cert-img" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={CCFSA} className="d-block w-100" alt="cert-img" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={NSDV} className="d-block w-100" alt="cert-img" />
-          </Carousel.Item>
-        </Carousel>
+      <div className="card-body">
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
+            date="2023 - present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Systems Security Certified Practitioner
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle ">(ISC)²</h4>
+            <p>
+              This certification demonstrates the ability to implement, monitor
+              and administer IT infrastructure in accordance with information
+              security policies and procedures that ensure data confidentiality,
+              integrity and availability.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
+            date="2022 - 2023"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              IBM Cybersecurity Analyst Professional Certificate
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Cousera & IBM Security Learning Academy
+            </h4>
+            <p>
+              This certification demonstrates the ability to understand cyber
+              security concepts, identify different types of threats, and
+              implement security controls to protect an organization&apos;s
+              assets.
+            </p>
+          </VerticalTimelineElement>
+          {/* <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
+            date="2006 - 2008"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Certified JavaScript Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">W3Schools</h4>
+            <p>
+              This certification demonstrates the ability to write efficient and
+              maintainable JavaScript code.
+            </p>
+          </VerticalTimelineElement> */}
+        </VerticalTimeline>
       </div>
     </div>
   );
 };
 
-export default CertificationCarousel;
+export default Certifications;
