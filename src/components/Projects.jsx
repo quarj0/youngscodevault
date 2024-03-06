@@ -8,15 +8,11 @@ import verify from "../assets/verify.png";
 import almareg from "../assets/almareg.png";
 import almatest from "../assets/almatest.png";
 
-import traveljournal from "../assets/tjournal.png";
-import travelstart from "../assets/travelstart.png";
-
 import ImageCarousel from "./ImageCarousel";
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
   const AlmaImages = [almareg, almatest];
-  const TravelImages = [travelstart, traveljournal];
   return (
     <div className="container-fluid text-body-primary">
       <div className="container text-start card-body">
@@ -176,11 +172,9 @@ const Advantages = () => {
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/quarj0/cyber-dashboard/#" onclick="return false;"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="#" //to be updated
                   >
-                    Not Available Yet
+                    Not Available
                   </a>
                 </small>
               </p>
