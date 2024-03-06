@@ -28,14 +28,13 @@ const Certifications = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Systems Security Certified Practitioner
+              Certified in Cybersecurity
             </h3>
             <h4 className="vertical-timeline-element-subtitle ">(ISC)²</h4>
             <p>
-              This certification demonstrates the ability to implement, monitor
-              and administer IT infrastructure in accordance with information
-              security policies and procedures that ensure data confidentiality,
-              integrity and availability.
+              This certification demonstrates the ability to design, implement,
+              and manage a best-in-class cybersecurity program. It also shows
+              the ability to protect an organization from sophisticated attacks.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
