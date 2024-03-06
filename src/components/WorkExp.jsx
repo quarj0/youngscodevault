@@ -45,7 +45,7 @@ const Work = () => {
         <div className="section">
           <div className="bead"></div>
           <div className="content">
-            <h3>IT Internship</h3>
+            <h3>IT Support Internship</h3>
             <p>
               During my internship at the University of Cape Coast, I was
               responsible for the following:
@@ -67,11 +67,11 @@ const Work = () => {
                 university.
               </li>
               <li>
-                Assisted in developing software for the university&apos;s
-                administrative office.
+                Troubleshooted and resolved issues with the university&apos;s IT infrastructure
+                including systems, networks, and applications.
               </li>
             </ul>
-            <small className="education-date">2023 - present</small>
+            <small className="education-date">September-November, 2023</small>
           </div>
         </div>
 
@@ -89,8 +89,8 @@ const Work = () => {
                 by 30%.
               </li>
               <li>
-                Managed a team of X IT professionals and oversaw project
-                delivery.
+                Managed a team other IT professionals to ensure the smooth running
+                of the company&apos;s IT infrastructure.
               </li>
               <li>
                 Managed the company&apos;s website and social media platforms.
@@ -104,8 +104,7 @@ const Work = () => {
           <div className="bead"></div>
           <div className="content">
             <h3>
-              Graphic Designer and Print Specialist at BigBen&apos; Printing
-              Press
+              BigBen&apos; Printing Press - Graphic Designer & Print Specialist
             </h3>
             <p>
               As the Graphic Designer and Print Specialist at BigBen&apos;
