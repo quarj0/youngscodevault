@@ -40,6 +40,20 @@ const Specialization = () => {
           </small>
         </div>
       </div>
+      <div
+        data-aos="fade-down"
+        className="card mb-4 mt-3 card-special-container"
+      >
+        <h5 className="card-body text-start mt-3 m-lg-2">
+          System Analysis
+        </h5>
+        <div className="card-body text-start">
+          <small className="card-body text-body-primary">
+            I analyze and evaluate the behavior and performance of computer
+            systems and networks to improve their reliability and security and to help developers to build secure web apps and systems.
+          </small>
+        </div>
+      </div>
     </div>
   );
 };
