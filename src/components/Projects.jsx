@@ -155,7 +155,7 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-down">
           <div className="card h-100">
-            <ImageCarousel images={"No Available Img"} />{" "}
+           
             <div className="card-body">
               <h5 className="card-title">Cyber Dashboard</h5>
               <small className="m-3 text-danger">[In Progress!]</small>{" "}
