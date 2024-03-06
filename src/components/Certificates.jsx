@@ -57,22 +57,7 @@ const Certifications = () => {
               assets.
             </p>
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
-            date="2006 - 2008"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Certified JavaScript Developer
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">W3Schools</h4>
-            <p>
-              This certification demonstrates the ability to write efficient and
-              maintainable JavaScript code.
-            </p>
-          </VerticalTimelineElement> */}
+          
         </VerticalTimeline>
       </div>
     </div>
