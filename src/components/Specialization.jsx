@@ -14,7 +14,8 @@ const Specialization = () => {
         <h5 className="card-body text-start mt-3 m-lg-2">Development</h5>
         <div className="card-body text-start">
           <small className="card-body text-body-primary">
-            I build website with ReactJs and Django
+            I build web apps and systems using ReactJS for the frontend and Django for the backend.
+            I can utilize other programming languages like Java and frameworks like JavaSwing to build desktop apps and systems.
           </small>
 
         </div>
@@ -23,7 +24,8 @@ const Specialization = () => {
         <h5 className="card-body text-start mt-3 m-lg-2">Programming</h5>
         <div className="card-body text-start">
           <small className="card-title text-body-primary card-body">
-            I build scripts, and automate tasks with Python
+            I write scripts in Python to automate tasks and build tools for developers.
+            I also write scripts to analyze and evaluate the behavior and performance of computer systems and networks.
           </small>
 
         </div>
@@ -37,6 +39,20 @@ const Specialization = () => {
           <small className="card-body text-body-primary">
             I take projects on bounty hunting and help other developers to
             secure their web apps
+          </small>
+        </div>
+      </div>
+      <div
+        data-aos="fade-down"
+        className="card mb-4 mt-3 card-special-container"
+      >
+        <h5 className="card-body text-start mt-3 m-lg-2">
+          System Analysis
+        </h5>
+        <div className="card-body text-start">
+          <small className="card-body text-body-primary">
+            I analyze and evaluate the behavior and performance of computer
+            systems and networks to improve their reliability and security and to help developers to build secure web apps and systems.
           </small>
         </div>
       </div>

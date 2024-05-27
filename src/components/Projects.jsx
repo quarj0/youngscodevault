@@ -8,15 +8,11 @@ import verify from "../assets/verify.png";
 import almareg from "../assets/almareg.png";
 import almatest from "../assets/almatest.png";
 
-import traveljournal from "../assets/tjournal.png";
-import travelstart from "../assets/travelstart.png";
-
 import ImageCarousel from "./ImageCarousel";
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
   const AlmaImages = [almareg, almatest];
-  const TravelImages = [travelstart, traveljournal];
   return (
     <div className="container-fluid text-body-primary">
       <div className="container text-start card-body">
@@ -159,24 +155,26 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-down">
           <div className="card h-100">
-            <ImageCarousel images={TravelImages} />{" "}
+           
             <div className="card-body">
-              <h5 className="card-title">Travel Journal</h5>
+              <h5 className="card-title">Cyber Dashboard</h5>
+              <small className="m-3 text-danger">[In Progress!]</small>{" "}
               <p className="card-text">
-                A simple travel journal app built with ReactJS. It allows users
-                see the list of places they have visited with date. The places
-                can be viewed on a map. The app uses the Google Maps API to
-                display the map.
+                A web application that provides a dashboard for cybersecurity
+                professionals to monitor and analyze the security of an
+                organization&apos;s network. The application is built with
+                Django and Django Rest Framework for the backend and ReactJS for
+                the frontend. The application uses the Nessus API to fetch
+                vulnerability scan data and display it in a user-friendly
+                manner.
               </p>
               <p className="link-to-project text-sm-center">
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/qquarjo/travel-journal"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="#" //to be updated
                   >
-                    View Project
+                    Not Available
                   </a>
                 </small>
               </p>
