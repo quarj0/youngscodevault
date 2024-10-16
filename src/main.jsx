@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { inject } from '@vercel/analytics';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react";
  
 
 inject();
