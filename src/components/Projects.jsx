@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import systemresponse from "../assets/systemresponse.png";
+import systemresponse from "../assets/sysanalyzer.png";
 import appscreen from "../assets/interface.png";
 import statement from "../assets/statement.png";
 import mobiletrans from "../assets/mobiletrans.png";

@@ -30,7 +30,7 @@ const MySkills = () => {
             <p className="language fs-6">Python</p>
             <div className="circle">
               <FaPython color="blue" className="fadvantage" />
-              <span className="percentage">80%</span>
+              <span className="percentage">70%</span>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const MySkills = () => {
             <p className="language fs-6">ReactJs</p>
             <div className="circle">
               <FaReact color="lightblue" className="fadvantage" />
-              <span className="percentage">78%</span>
+              <span className="percentage">58%</span>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const MySkills = () => {
             <p className="language fs-6">Git</p>
             <div className="circle">
               <FaGit className="fadvantage" color="#F05033" />
-              <span className="percentage">85%</span>
+              <span className="percentage">80%</span>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const MySkills = () => {
             <p className="language">JavaScript</p>
             <div className="circle">
               <FaJs className="fadvantage" color="yellow" />
-              <span className="percentage">70%</span>
+              <span className="percentage">60%</span>
             </div>
           </div>
 

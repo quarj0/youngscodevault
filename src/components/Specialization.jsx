@@ -14,8 +14,10 @@ const Specialization = () => {
         <h5 className="card-body text-start mt-3 m-lg-2">Development</h5>
         <div className="card-body text-start">
           <small className="card-body text-body-primary">
-            I build web apps and systems using ReactJS for the frontend and Django for the backend.
-            I can utilize other programming languages like Java and frameworks like JavaSwing to build desktop apps and systems.
+          I build APIs using Django and MySQL.
+           Django provides a robust framework for developing web and mobile
+            applications quickly, while MySQL offers a reliable and scalable database solution.
+            Together, they allow me to create efficient and secure APIs for various applications.
           </small>
 
         </div>

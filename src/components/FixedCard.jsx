@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 const FixedCard = () => {
   const handleMailTo = () => {
     const email = "owusuansahkwadwo24@gmail.com";
-    const subject = "Contact from your portfolio";
+    const subject = "Inquiry from Portfolio Website";
     const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
     window.location.href = mailto;
   };

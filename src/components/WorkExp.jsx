@@ -21,6 +21,8 @@ const Work = () => {
       <div className="timeline">
         <div className="line"></div>
 
+        
+
         <div className="section">
           <div className="bead"></div>
           <div className="content">
@@ -42,6 +44,7 @@ const Work = () => {
             <small className="education-date">2023 - present</small>
           </div>
         </div>
+
         <div className="section">
           <div className="bead"></div>
           <div className="content">
