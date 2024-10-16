@@ -13,10 +13,10 @@ const Introduction = () => {
         </i>
         <h1 className="text-header text-wrap">
           <span className="text-body-primary ">Hi 👋! I&apos;m</span>
-          <span className="text-success m-2 text-capitalize">Young</span>,
+          <span className="text-success m-2 text-capitalize">Quarjo</span>,
           <br />
           <span className="text-body-primary">
-            Cybersecurity Analyst and Programmer.
+            Cybersecurity Analyst and Backend Dev.
           </span>
         </h1>
         <p className="text-wrap text-body-primary">
@@ -24,7 +24,7 @@ const Introduction = () => {
           comprehensive showcase of my skills, experiences, and accomplishments
           in the world of IT, web development, and design. As a dedicated
           student at the University of Cape Coast in Ghana with a passion for
-          cybersecurity, Python, JavaScript, and web development, this platform
+          cybersecurity and Web Development, this platform
           reflects my journey and aspirations.
         </p>
       </div>

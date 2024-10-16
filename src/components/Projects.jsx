@@ -5,14 +5,14 @@ import statement from "../assets/statement.png";
 import mobiletrans from "../assets/mobiletrans.png";
 import verify from "../assets/verify.png";
 
-import almareg from "../assets/almareg.png";
-import almatest from "../assets/almatest.png";
+import hostel from "../assets/almareg.png";
+import hostelBook from "../assets/almatest.png";
 
 import ImageCarousel from "./ImageCarousel";
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
-  const AlmaImages = [almareg, almatest];
+  const HostelImages = [hostel, hostelBook];
   return (
     <div className="container-fluid text-body-primary">
       <div className="container text-start card-body">
@@ -43,11 +43,11 @@ const Advantages = () => {
             />
             <div className="card-body">
               <h5 className="card-header text-center">
-                System Response Analyser
+                System Analyser
               </h5>
               <p className="card-subtitle mt-3 text-body-primary">
                 A script written in python to assess and evaluate the behavior
-                and performance of a computer system. Platforms: Linux OS and
+                and performance of a computer system. Platforms: Linux OS, Windows, Rasberry Pi and
                 MacOS
                 <p className="text-body-primary">Features</p>
                 <ul className="text-body-primary">
@@ -63,6 +63,12 @@ const Advantages = () => {
                   <li className="text-body-primary">
                     Checking disk, memory and CPU usage{" "}
                   </li>
+                  <li className="text-body-primary">
+                    Network speed testing as an indicator of network performance.
+                  </li>
+                  <li className="text-body-primary">
+                    System uptime and system information
+                  </li>
                   <li className="text-body-primary">etc</li>
                 </ul>
               </p>
@@ -70,7 +76,7 @@ const Advantages = () => {
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/qquarjo/System-Response-Analyzer"
+                    href="https://github.com/quarj0/system-analyser"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -83,39 +89,38 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-left">
           <div className="card h-100">
-            <ImageCarousel images={AlmaImages} />
+            <ImageCarousel images={HostelImages} />
             <div className="card-body">
               <h5 className="card-header text-center">
-                AlmaMingle{" "}
-                <small className="m-3 text-danger">[In Progress!]</small>{" "}
+                Hostel Management System{" "}
+                <small className="m-3 text-danger">Backend</small>{" "}
               </h5>
               <p className="card-subtitle mt-3 text-body-primary">
-                A webapp for university students&apos; to find and make friends
-                from different universities in Ghana. <br /> This project uses
-                frameworks such as Django and Django Rest Framework for the
-                backend and ReactJS for the frontend.
+                Hostel Management System is a web application that allows
+                students to search for hostels, book rooms, etc. 
                 <br />
                 <br />
-                This project is built in two parts: the backend and the
-                frontend.
+                The application
+                is built with Django and Django Rest Framework for the backend and 
+                it&apos;s only the backend part of the project consisting of fully functional RESTful APIs.
               </p>
               <p className="text-body-primary">Features</p>
               <ul className="text-body-primary">
                 <li>User authentication and authorization</li>
                 <li>User profile management</li>
                 <li>User can search for other users by filtering</li>
-                <li>Live Chat</li>
+                <li>Users can book rooms</li>
+                <li>Users can view their booking history</li>
                 <li>etc</li>
               </ul>
               <p className="link-to-project text-sm-center">
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/qquarjo/almaminglef"
-                    target="_blank"
+                    href="https://github.com/quarj0/hostel_management"                  target="_blank"
                     rel="noreferrer"
                   >
-                    View Project
+                    Private Repo
                   </a>
                 </small>
               </p>

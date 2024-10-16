@@ -11,7 +11,7 @@ const Footer = () => {
             embarking on this exciting journey together.
           </p>
           <p className="text-body-primary">
-            &copy; 2023 Young.CodeVault. All Rights Reserved.
+          &copy; 2023 quarjo&apos;s portfolio. All Rights Reserved
           </p>
         </div>
       </div>

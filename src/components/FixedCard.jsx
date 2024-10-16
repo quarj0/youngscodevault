@@ -12,9 +12,6 @@ const FixedCard = () => {
 
   return (
     <div className="card container-fluid p-1 fixed-card ">
-      {/* <h2 className="registered fw-bold fs-2 text-capitalize">
-        young <span className="custom-shorthand-k"></span>
-      </h2> */}
       <div className="text-body-primary">
         <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">
@@ -32,8 +29,7 @@ const FixedCard = () => {
       />
 
       <p className="text-body-primary mt-4">
-        hello@quarjo&apos;s portfolio <br />
-        Base in Ejisu-Kumasi, Gh
+        Based in Ejisu-Kumasi, Gh
       </p>
       <div className="social-icons">
         <div className="icons-container icon-link">
@@ -84,7 +80,7 @@ const FixedCard = () => {
       <div className="card-text">
         <p className="text-body-primary">
           <small className="text-sm-center ">
-            &copy; 2023 young.codevault. All Rights Reserved
+            &copy; 2023 quarjo&apos;s portfolio. All Rights Reserved
           </small>
         </p>
       </div>
