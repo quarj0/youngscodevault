@@ -5,14 +5,11 @@ import statement from "../assets/statement.png";
 import mobiletrans from "../assets/mobiletrans.png";
 import verify from "../assets/verify.png";
 
-import hostel from "../assets/almareg.png";
-import hostelBook from "../assets/almatest.png";
 
 import ImageCarousel from "./ImageCarousel";
 
 const Advantages = () => {
   const AtmImages = [appscreen, statement, mobiletrans, verify];
-  const HostelImages = [hostel, hostelBook];
   return (
     <div className="container-fluid text-body-primary">
       <div className="container text-start card-body">
@@ -87,17 +84,13 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        <div className="col" data-aos="fade-left">
+        <div className="col" data-aos="fade-down">
           <div className="card h-100">
-            <ImageCarousel images={HostelImages} />
             <div className="card-body">
-              <h5 className="card-header text-center">
-                Hostel Management System{" "}
-                <small className="m-3 text-danger">Backend</small>{" "}
-              </h5>
-              <p className="card-subtitle mt-3 text-body-primary">
-                Hostel Management System is a web application that allows
-                students to search for hostels, book rooms, etc. 
+              <h5 className="card-title">Hostel Management</h5>
+              <small className="m-3 text-danger">APIs Only</small>{" "}
+              <p className="card-text">
+                A mobile application APIs for a hostel management service. 
                 <br />
                 <br />
                 The application
@@ -106,11 +99,13 @@ const Advantages = () => {
               </p>
               <p className="text-body-primary">Features</p>
               <ul className="text-body-primary">
-                <li>User authentication and authorization</li>
-                <li>User profile management</li>
-                <li>User can search for other users by filtering</li>
-                <li>Users can book rooms</li>
-                <li>Users can view their booking history</li>
+                <li>Authentication and Authorization</li>
+                <li>Profile management</li>
+                <li>Search and Filter functionality</li>
+                <li>Booking management functionality</li>
+                <li>Review management functionality</li>
+                <li>Favouriting management functionality</li>
+                <li>Categorizing Hostels</li>
                 <li>etc</li>
               </ul>
               <p className="link-to-project text-sm-center">
@@ -160,26 +155,23 @@ const Advantages = () => {
         </div>
         <div className="col" data-aos="fade-down">
           <div className="card h-100">
-           
             <div className="card-body">
-              <h5 className="card-title">Cyber Dashboard</h5>
-              <small className="m-3 text-danger">[In Progress!]</small>{" "}
+              <h5 className="card-title">Campus Glide</h5>
+              <small className="m-3 text-danger">APIs Only</small>{" "}
               <p className="card-text">
-                A web application that provides a dashboard for cybersecurity
-                professionals to monitor and analyze the security of an
-                organization&apos;s network. The application is built with
-                Django and Django Rest Framework for the backend and ReactJS for
-                the frontend. The application uses the Nessus API to fetch
-                vulnerability scan data and display it in a user-friendly
-                manner.
+              A mobile application APIs for  E-Scooter rental service.
+              <br />
+              <br />
+              The application is built with Django and Django Rest Framework for the backend 
+              and it&apos;s only the backend part of the project consisting of fully functional RESTful APIs.
               </p>
               <p className="link-to-project text-sm-center">
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="#" //to be updated
+                    href="https://github.com/quarj0/campusglidebackend" 
                   >
-                    Not Available
+                    Private Repo
                   </a>
                 </small>
               </p>
