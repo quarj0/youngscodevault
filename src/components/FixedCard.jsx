@@ -80,7 +80,7 @@ const FixedCard = () => {
       <div className="card-text">
         <p className="text-body-primary">
           <small className="text-sm-center ">
-            &copy; 2023 quarjo&apos;s portfolio. All Rights Reserved
+            &copy; 2023 quarjo&apos;s site. All Rights Reserved
           </small>
         </p>
       </div>
