@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { inject } from '@vercel/analytics';
+import { SpeedInsights } from "@vercel/speed-insights/next"
  
 
 inject();
@@ -18,6 +19,12 @@ const InitializeAOS = () => {
   }, []);
 };
 
+const speedInsightsConfig = {
+  token: "YOUR_SPEED_INSIGHTS_TOKEN",
+  enabled: import.meta.env.MODE === "production",
+};
+
+SpeedInsights(speedInsightsConfig);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
