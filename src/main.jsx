@@ -3,12 +3,11 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { inject } from '@vercel/analytics';
-import { SpeedInsights } from "@vercel/speed-insights/react";
- 
+import { inject } from "@vercel/analytics";
+import { SpeedInsights } from "@vercel/speed-insights/react";  // Check this import
 
 inject();
-// eslint-disable-next-line react-refresh/only-export-components
+
 const InitializeAOS = () => {
   useEffect(() => {
     AOS.init({
@@ -17,6 +16,7 @@ const InitializeAOS = () => {
       once: true,
     });
   }, []);
+  return <></>;  
 };
 
 const speedInsightsConfig = {
@@ -24,11 +24,10 @@ const speedInsightsConfig = {
   enabled: import.meta.env.MODE === "production",
 };
 
-SpeedInsights(speedInsightsConfig);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <InitializeAOS />
+    <SpeedInsights token="YOUR_SPEED_INSIGHTS_TOKEN" enabled={import.meta.env.MODE === "production"} />
     <App />
   </React.StrictMode>
 );
